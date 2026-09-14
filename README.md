@@ -11,6 +11,9 @@ The Immersive Living World QOL Ruleset (ILWR) is a set of guides that aims to ac
 
 3. **Deep Sensory Immersion**: Weaves player inputs smoothly into the prose while focusing strictly on visceral sensations (e.g., the hairs on your neck rise vs. you feel a sense of dread).
 
+## **Can you Vizualize it for me?**
+![ILWR_FLOWCHART](ILWR_CORE_FLOWCHART.png)
+
 ## **Why did you make the ILWR?**
 Long story short my Tsundere wife in one of my campaigns was being written as a bitch, more Tsun no Dere. Pissed me off.  As a ~~degenerate~~ man of culture i could not let that stand so here we are. 
 
