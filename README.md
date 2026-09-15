@@ -17,6 +17,9 @@ The Immersive Living World QOL Ruleset (ILWR) is a set of guides that aims to ac
 ## **Why did you make the ILWR?**
 Long story short my Tsundere wife in one of my campaigns was being written as a bitch, more Tsun no Dere. Pissed me off.  As a ~~degenerate~~ man of culture i could not let that stand so here we are. 
 
+## **I tried reading it, its incomprehensible**
+Yes, that's on me. The guides aren't really worded for humans because I don't have creative writing skills and also leaving things up to AI interpretation provides wildly different results depending on the model there is no way for me to write the guides to work the way they do without them devolving into "pretty suggestions"
+
 ## **Why is it written this way?**
 The ILWR branches off the usual principles of AI Prompt engineering in order to leverage the following facts
 
