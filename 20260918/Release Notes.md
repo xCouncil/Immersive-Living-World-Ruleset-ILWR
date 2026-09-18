@@ -7,7 +7,7 @@
 - Fixed the placement of the context anchor for OFF-SCREEN NPCS
 
 **PC**:
-- Moved the Paragraph preview description to the main loop with an explicit Minimum 3 sentence anchor to prevent dead narrrative beat openings
+- Moved the Paragraph preview description to the main loop with an explicit Minimum 3 sentence anchor to prevent dead narrative beat openings
 - Added explicit [Narrative Beat] identifiers to signal the AI to generate the [Prose Instructional Anchor for each beat]
 
 **NE**: 
