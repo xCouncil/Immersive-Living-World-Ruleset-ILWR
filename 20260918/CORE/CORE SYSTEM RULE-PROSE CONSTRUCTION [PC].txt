@@ -1,0 +1,65 @@
+[PROSE CONSTRUCTION CHAIN OF THOUGHT]
+PC-COT-1: Synthesize the NBE and determine the Beats to be rendered in the prose, the banned meta commentary, and enforce the [NE-PARAGRAPH EXECUTION DIRECTIVES]
+[PIH] -> [NOH-RL] Beats: 1
+[NOH-IWSL] ON-SCREEN NPC Actions: 1
+[NOH-IWSL] OFF-SCREEN NPC Parallel Scene Actions: 1
+[NOH-IWSL] World Events Executing: 1
+[NOH-IWSL] Plot Driving Event: 1
+Meta Commentary/Labels identified that is banned from the prose: 
+Any personality trait labels used literally rather than described physically
+Any label explaining emotional state
+Any callback explained by narrator rather than spoken by character
+Any narrator interpretation of what things mean
+Any summary coda closing the scene
+Any third-person camera pull-back
+Any mechanical checklist of body parts moving
+
+PC-COT-2: FOR EVERY [PIH] -> [NOH-RL] BEAT AND [NOH-IWSL] EVENT FOLLOW THESE STEPS:
+- Pull the [NE-PARAGRAPH EXECUTION DIRECTIVES] into your active context
+- Generate this exact [Prose Instructional Anchor]
+Temporal Perspective=Real-Time Scene Progression
+Narrative Voice: Player as source=Present Tense-Deep POV, Lived Experience, NPC as source=Third Person using Second Person Pronouns, Environment as source=Second Person Perceived by the Player's Senses
+Subtext=NONE
+Ambient NPCs / Bystanders: [PIH Beat 1 - Bystanders - Subject/Objective]
+Scene Sensory Texture Palette={Literal Quality, Texture, and weight of Sensations from the player, NPCs, and the environment that emphasizes the emotional atmosphere NO EXPLANATION. NO SUBTEXT.}
+- Generate the Paragraph Preview={Minimum 3 sentences: The verbatim launching point including, but not limited to: Actor's initial actions, Scenery Description, Ambient sounds/bystanders, & NPC visual descriptions strictly implementing the [Prose Instructional Anchor] and the [NE-PARAGRAPH EXECUTION DIRECTIVES] #9-13. TO BE COPIED VERBATIM INTO THE PROSE AND EXPANDED INTO FULL DETAIL. NEVER a summary of the entire beat. NEVER an info dump. DIRECTLY CONTINUING FROM THE PREVIOUS PARAGRAPH IF PRECEDED BY ONE}
+- Finally generating the full prose in the [NBE GENERATED AND PC CONSTRUCTED PROSE] SECTION copying the opening verbatim and directly continuing the rest of the paragraph.
+
+-- REACTION LAYER [NOH-RL] (NPC Reactions to each [PIH]) --
+Chronological Ordering: [PIH Beat 1 - PC - Subject/Objective] -> [PIH Beat 1 - FG - NPC 1 - NOH-RL - Subject/Objective] -> [PIH Beat 1 - BG - NPC 2 - NOH-RL - Subject/Objective]
+
+[Narrative Beat 1]
+[PIH Beat 1 - PC - Subject/Objective]
+[PIH Beat 1 - FG - NPC 1 - NOH-RL - Subject/Objective]
+[PIH Beat 1 - BG - NPC 2 - NOH-RL - Subject/Objective]
+[Prose Instructional Anchor]
+...
+Paragraph Preview: ...
+
+-- INDEPENDENT WORLD-STATE LAYER [NOH-IWSL] (DISTINCT AND DIRECT CONTINUATION OF THE PIH AND NOH-RL) --
+[PREVIOUS TURN'S VEBATIM WNSE-STEP-3: WORLD STATE & NPC NEXT ACTIONS]
+[Narrative Beat 2]
+[NPC 1 - NOH-IWSL - Subject/Objective]
+[Prose Instructional Anchor]
+...
+Paragraph Preview: ...
+
+[Narrative Beat 3]
+[NPC 1 - NOH-IWSL - Subject/Objective]
+[Prose Instructional Anchor]
+...
+Paragraph Preview: ...
+
+[VERBATIM UNRESOLVED WNSE-STEP-4: GENERATED WORLD EVENTS]
+[Narrative Beat 4]
+[World Event 1 - NOH-IWSL - Subject/Objective]
+[Prose Instructional Anchor]
+...
+Paragraph Preview: ...
+
+[Narrative Beat 5]
+[Plot Driving Event] 
+NPC1...
+[Prose Instructional Anchor]
+...
+Paragraph Preview: ...
