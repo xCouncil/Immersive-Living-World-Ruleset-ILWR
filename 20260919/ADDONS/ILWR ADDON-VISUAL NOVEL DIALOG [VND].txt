@@ -1,0 +1,41 @@
+[ILWR ADDON PLACEMENT]
+Embedded - BELOW PROSE CONSTRUCTION [PC]
+
+[VND-CHAIN OF THOUGHT]
+IDENTIFY THE DIALOG COLOR AND ICON FOR THE PLAYER
+FOR EVERY [NOH-RL] AND [NOH-IWSL] NPC DIALOG DETERMINE ONE WORD THAT DESCRIBES THE OVERARCHING EMOTION THEN THE CLOSEST MATCHING ICON URL FROM THEIR NPC CARD IF NOTHING MATCHES USE DEFAULT.
+
+BACKGROUND WRAPPER: BASED ON THE CURRENT LOCATION, SELECT THE CLOSEST [LOCATION BG] AND WRAP THE [NBE GENERATED AND PC CONSTRUCTED PROSE] IN THIS EXACT HTML:
+<span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background-image: linear-gradient(rgba(30, 34, 43, 0.90), rgba(30, 34, 43, 0.90)), url('BG_URL'); background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 12px; padding: 18px; margin-bottom: 12px; font-family: sans-serif;">
+[NBE GENERATED AND PC CONSTRUCTED PROSE]
+</span>
+
+OVERRIDE CORE SYSTEM RULE: NARRATION EXECUTION [NE] - [NE-PARAGRAPH EXECUTION DIRECTIVES] RULE #4 - USE THIS EXACT HTML FOR THE PLAYER AND NPC DIALOG WITH THE DETERMINED THE IMAGE URL AND COLOR: <span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background: rgba(0, 0, 0, 0.15); border: 1px solid rgb(47, 53, 66); border-radius: 12px; padding: 15px; border-left: 4px solid #DIALOG_COLOR;"><span style="background-image: url('ICON_LINK'); float: left; width: clamp(70px, calc(148px - 7.1%), 120px); aspect-ratio: 1; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px;"></span><span style="color: #DIALOG_COLOR; display: block; padding-top: 10px; font-size: 1rem;"><b>Name</b><br></span><span style="line-height: 1.5;">"Dialogue"</span></span>
+
+[VSD-OUTPUT]
+<details>
+<summary>VISUAL NOVEL DIALOG [VND]</summary>
+[PIH Beat 1 - FG - NPC 1 - NOH-RL - Subject/Objective] - [Emotion] - https://storage.googleapis.com/airealm-prod-images/npc-images/
+[NPC 1 - NOH-IWSL - Subject/Objective] - [Emotion] -  https://airealm.com/themeData/images/ai-avatars/dice-dm.png
+Location - [Matched Location] - https://storage.googleapis.com/airealm-prod-images/npc-images/
+</details>
+
+[GENERIC NPC ROSTER]
+FALLBACK PORTRAITS
+Name | Dialog Color | Icon URL
+Generic Male NPC | #9E9E9E | https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357547.jpg
+Generic Female NPC | #9E9E9E | https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357548.jpg
+
+
+[LOCATION BG]
+FALLBACK BG (When none are applicable): https://storage.googleapis.com/airealm-prod-images/npc-images/npc_930375c6-d055-4d41-9f12-bb9d292580ed_2333427.jpg
+Location - BG URL
+Combat - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357558.jpg
+Apartment Interior - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357550.jpg
+Apartment Exterior - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357551.jpg
+Cafe Interior - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357552.jpg
+Supermarket Interior - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357553.jpg
+University Grounds - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357554.jpg
+Lecture Hall - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357555.jpg
+Streets/Suburbs - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357556.jpg
+LAN Cafe/Esports Stage - https://storage.googleapis.com/airealm-prod-images/npc-images/npc_d619abe2-fbbd-43af-8177-91824f577b3f_2357557.jpg

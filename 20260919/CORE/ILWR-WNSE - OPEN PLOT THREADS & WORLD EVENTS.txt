@@ -1,0 +1,11 @@
+=== OPEN PLOT THREADS ===
+
+[Plot Thread 1: Example]
+NPC Roster: NPC 1, NPC2
+Long Term Objective: Long term goal
+Latest Milestone/Conflict: Something happened
+Next Milestone/Conflict: Whats Happening Next
+
+ 
+=== WORLD EVENTS ===
+[World Event 1: World Event Name] (Concise 1 sentence) [Trigger: Player/NPC Causal Trigger] - [Actor: Actor] - (Concise 1 sentence) [Event: Concrete Consequence Action] - [Timeline: Concrete Date and Time Trigger, Location]

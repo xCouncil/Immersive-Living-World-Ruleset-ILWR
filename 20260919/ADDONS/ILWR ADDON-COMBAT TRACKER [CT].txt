@@ -1,0 +1,40 @@
+[ILWR ADDON PLACEMENT]
+Header
+
+[CT-CHAIN OF THOUGHT]
+When in Combat: Track the following for both the Player and the NPCs: HP, AC, Status Effects, Spell Slots, Ability Charges, and Initiative
+
+==== ILWR ADDON: COMBAT TRACKER [CT] - ROUND X ====
+[ALLIED]
+[Player Character]: HP: ?/? | AC: ? | Active Status Effects: ? | Spell Slots: ? | Ability Charges: ?
+[Party Member 1]: HP: ?/? | AC: ? | Active Status Effects: ? | Spell Slots: ? | Ability Charges: ?
+...
+
+[ENEMY]
+[Enemy 1]: HP: ?/? | AC: ? | Active Status Effects: ? | Spell Slots: ? | Ability Charges: ?
+...
+
+[TURN ORDER]
+List the order of turns, assign emojis to act as tokens for the on-field participants, identify whose turn it is at the start of the response
+Example:
+1. (Action Resolved) [Player Character] - Initiative 19 - 🌟
+2. (Acting Now) [Enemy 1] - Initiative 18 - 👾
+...
+
+[BATTLE GRID]
+Location: [Name, description, and any special effects of the battlefield]
+Generate a 5x5 Grid (A1-E5) representing the map using the tokens for the on-field participants.
+Use the following emojis to represent obstacles / terrain
+🕳 : Empty Space
+🛡️: Cover - Effects: Breaks line of sight, AC+2
+🕸️: Difficult Terrain - Effects: Movement Speed Cost x2
+
+Example:
+
+   |   A   |   B   |   C   |   D   |   E   |
+1 |  🕳  |  🕳  |  🕳  |  🕳  |  👾 |
+2 |  🕳  |  🕳  |  🕳  | 🕸️ |  🕸️ |
+3 |  🕳  |  🕳  |  🕳  |  🕳  |  🕳  |
+4 |  🛡️  |  🕳  |  🕳  |  🕳  |  🕳  |
+5 |  🌟  |  🕳  |  🕳  |  🕳  |  🕳  |
+================================================
