@@ -1,4 +1,8 @@
 # IMMERSIVE LIVING WORLD RULESET [ILWR]
+
+## **[Change Log](Changelog.md)**
+
+
 ## **Where does it Run?**
 This is a collection of interconnected GM Guides designed to facilitate roleplay in the AIRealm Platform (https://airealm.com/)
 
