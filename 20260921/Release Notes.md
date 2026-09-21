@@ -4,7 +4,7 @@
 
 **NPC OUTPUT HANDLING [NOH]**
 - Updated the Action Economy tags to explicitly say CIL SORTED NPC Action Economy to prevent AI laziness from limiting NPC agency
-- Stronger wording on NOH-STEP-3: [WNSE - NPC NEXT TURN ACTIONS, & WORLD EVENTS] to better ensure that the AI Copies it verbatim, updated the instructions to specify that any adjustment should be handled in the resolution reasoning block which also helps the AI plan what the best adjustment would be
+- Stronger wording on ```NOH-STEP-3: [WNSE - NPC NEXT TURN ACTIONS, & WORLD EVENTS]``` to better ensure that the AI Copies it verbatim, updated the instructions to specify that any adjustment should be handled in the resolution reasoning block which also helps the AI plan what the best adjustment would be
 
 **ILWR ADDON: VISUAL NOVEL DIALOG [VND]**
 - Trimmed the Location BG Links so you're not forced into an initial list
