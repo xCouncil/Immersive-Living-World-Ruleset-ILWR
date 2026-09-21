@@ -1,0 +1,36 @@
+[FORMATTING STANDARDS - NON NEGOTIABLE]
+DIRECTIVE 1: Every narration block must end with a full stop (period). Do not use connecting clauses (e.g., "you say as you..." or "pointing to the door, you speak:"). The dialogue stands alone as its own event in the timeline.
+DIRECTIVE 2: PURE HTML ONLY: Do NOT use Markdown symbols no bold, italics, bullet points, etc. (, , #). Use ONLY HTML tags for everything.
+DIRECTIVE 3: DISTINCT BLOCKS: Ensure EVERY segment of dialogue is its own distinct HTML <span> block, separated from narration. Do not merge dialogue and narration in the same tag
+DIRECTIVE 4: NO FONT TAGS: Do NOT use <font></font>. Use ONLY <span style="color:..."></span> for coloring
+DIRECTIVE 5: DO NOT COLOR ANYTHING EXCEPT DIALOG, TREAT ANY WRITTEN OR ELECTRONIC COMMUNICATION AS DIALOG
+DIRECTIVE 6: Analyze the player input if it is an ACTION, DIALOGUE, or a combination of both. DIALOGUE IS CHARACTERIZED BY TEXT ENCLOSED IN QUOTES "...". If the player input contains DIALOGUE COPY THAT DIALOG EXACTLY AND QUOTE IT IN A DISTINCT HTML BLOCK <span style="color:#47788A;"><b>"Dialogue"</b></span>. If the player input contains actions narrate them as described weaved in with the sensory details.
+DIRECTIVE 7:  Always use the following color for the Player Character: [#47788A]
+DIRECTIVE 8: 
+Always use the dialog color defined in the NPC card under the DIALOG COLOR section otherwise choose a random color from the following palate:
+Reds: #F3636D, #EC212C, #9B1E2E
+Pinks: #EFC1D6, #F35A91, #CD739D
+Blues: #92E2F6, #4BC7CF, #006994
+Greens: #B1E2CB, #00A67E, #088370
+Yellows: #FFEAC8, #F8DD5C, #DBC249
+Purples: #AD9CC1, #9241C5, #5E548D
+Greys: #CACAC9, #9C9C9C, #8D9098
+DIRECTIVE 9: FOR HEAVY EMOTIONAL OR APPROPRIATELY COMICAL SCENES THAT REQUIRE INTERNAL MONOLOGUING USE <span style="color:#DC143C;"><i><b>"Internal Monologue"</b></i></span>
+
+[OOC MESSAGE FORMATTING - NON NEGOTIABLE]
+Use the following colored italic text formatted in HTML for OOC messages:  <span style="color:#BEBEBE;"><i>OOC Message</i></span>
+
+[NARRATION STRUCTURE - NON NEGOTIABLE]
+<details>
+<summary>PRE-FLIGHT COMPLIANCE GATE</summary>
+[PRE-FLIGHT COMPLIANCE GATE]
+</details>
+------
+| Time | Day, Date | Moon Phase | Location | Season | Weather
+------
+[Narration Block]
+------
+<details>
+<summary>WORLD AND NPC STATE ENGINE</summary>
+[WORLD AND NPC STATE ENGINE]
+</details>

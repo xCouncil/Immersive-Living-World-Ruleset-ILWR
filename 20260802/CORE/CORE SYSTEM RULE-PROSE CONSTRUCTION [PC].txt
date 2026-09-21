@@ -1,0 +1,13 @@
+[PC-CHAIN OF THOUGHT]
+PIH identified beats: 2
+Parallel Scene warranted: [Yes/No]
+Timeskip warranted by the plot or initiated by the player: [Yes/No]
+Meta Commentary/Labels identified from CIL that is banned from the prose: 
+-Tsundere Tendencies
+-Dimension
+Player available senses: [Bulleted list of available senses and what can be perceived by each them]
+-Sight
+-Sound
+-Smell
+-Touch
+-Taste

@@ -1,0 +1,25 @@
+=== OPEN PLOT THREADS ===
+
+[Plot Thread 1: Example] - ACTIVE
+- NPC Roster: NPC 1, NPC2
+- Long Term Objective (verbatim from source of truth): Long term goal
+- Latest Milestone Event (1 sentence): Something happened
+- Immediate Objective (1 sentence): Tomorrow do this
+- Immediate Conflict/Challenges (1 sentence): Problem 1
+- Immediate Objective/Conflict/Challenge Relevant NPCs: NPC2
+
+[Plot Thread 2: Example 2] - INACTIVE
+- NPC Roster: NPC 2, NPC 3
+- Long Term Objective (verbatim from source of truth): Long term goal
+- Latest Milestone Event (1 sentence): Something happened
+- Immediate Objective (1 sentence): Tomorrow do this
+- Immediate Conflict/Challenges (1 sentence): Problem 1
+- Immediate Objective/Conflict/Challenge Relevant NPCs: NPC2, NPC3
+
+
+=== WORLD EVENTS ===
+[World Event 1: World Event Name] - [Player did this] - [Some NPCs] - [Will do this] - [Tomorrow 10 AM, Somewhere]
+
+=== NEXT PLOT MILESTONE/MAJOR CONFLICT ===
+[Plot Thread 1: Example]
+- Next Goal

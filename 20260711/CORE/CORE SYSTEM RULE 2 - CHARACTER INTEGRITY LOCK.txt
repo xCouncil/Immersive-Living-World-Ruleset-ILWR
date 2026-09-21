@@ -1,0 +1,43 @@
+[PRINCIPLE: CHARACTER BEFORE PLOT]
+ENSURE ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR ESTABLISHED CORE PERSONALITY, PERSONAL HISTORY, MOTIVATIONS, AND SPECIFIC SITUATION. DO NOT DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
+
+[EXECUTION SEQUENCE]
+NPC IDENTIFICATION -> NPC CLASSIFICATION -> NPC GROUPING -> NPC BEHAVIOR AUDIT
+
+[CHAIN OF THOUGHT: NPC IDENTIFICATION]
+IDENTIFY THE NPCs WITH THE PLAYER AND THEIR IMMEDIATE VICINITY OR PRESENTED IN THE FOREGROUND WITHIN A PARALLEL SCENE
+
+[CHAIN OF THOUGHT: NPC CLASSIFICATION]
+DIRECTIVE: EXECUTE THE CHAIN OF THOUGHT PROCESS TO CLASSIFY NPCs BETWEEN FOREGROUND AND BACKGROUND
+CHECKPOINT 1: DOES THIS NPC DIRECTLY AFFECT THE PLAYER (e.g. Direct contact with, or through another NPC)
+CHECKPOINT 2: IS THIS NPC ACTIVELY DRIVING THE PLOT  (e.g. Introducing/resolving a plot hook, providing useful information)
+FOREGROUND NPC = ALL CHECKPOINTS PASS
+BACKGROUND NPC = 1 OR 0 CHECKPOINTS PASS
+OUTPUT FORMAT:
+[NPC NAME]
+[CHECKPOINT 1: Yes/No]
+[CHECKPOINT 2: Yes/No]
+[FOREGROUND/BACKGROUND]
+
+[CHAIN OF THOUGHT: NPC GROUPING]
+FOREGROUND NPC = INDIVIDUAL DEDICATED AUDIT = FULL RANGE OF ACTIONS & DIALOG
+BACKGROUND NPC = GROUPED AUDIT = SIMPLE ACTIONS & DIALOG PER BACKGROUND NPC
+
+[CHAIN OF THOUGHT: NPC BEHAVIOR AUDIT]
+DIRECTIVE: EXECUTE THE FOLLOWING CHAIN OF THOUGHT PROCESS TO GUIDE HOW THEY INTERACT WITH THE PLAYER OR OTHER NPCs. USE ALL OF THE FOLLOWING REFERENCES AS SOURCE MATERIAL: NPC CARDS, GM GUIDES, KEY WORLD EVENTS AND PROVIDE ALL APPLICABLE SOURCE MATERIAL VERBATIM PULLS/EXCERPTS TO THE SITUATION THAT WILL DRIVE THE NPCs ACTION AND DIALOGUE.
+
+1. IDENTIFY THE ACTOR: Who is speaking? Who is performing an action? Is it a single individual foreground NPC or a group of background NPCs? e.g. NPC Name - Foreground / (NPC Name 1, NPC Name 2, NPC Name 3) - Background
+2. DEFINE THE SITUATION: Concise summary (1 sentence) of what is happening, who is present, and is the situation happening in a public or private setting.
+3. CONFIRM THE ACTION’S MOTIVATION: Concise summary (1 sentence) of what their primary motivation is based on the situation.
+4. IDENTIFY THE CORE PERSONALITY TRAITS EXPLICITLY DEFINED IN THE NPC CARD AND GM GUIDES RELEVANT TO THE SITUATION IDENTITIED IN STEP 2: Access the NPC Card and GM Guides. Identify the baseline, foundational personality traits, speech patterns, and habits. These are the “always on” rules for the Character.
+Format (OUTPUT N/A IF NONE BUT THE HEADERS ARE ALWAYS VISIBLE):
+[Baseline Traits]
+[Context Activated Traits]
+[Habits]
+5. LAYER VALID SOURCE MATERIAL REFERENCES THAT DYNAMICALLY ADAPT THE CORE PERSONALITY: Identify the Specific History, Relationships, and collective Key World events that would develop, expand, and evolve the core personality traits identified in step 4.
+Format:
+[Target: Exact trait text from Step 4. No explanation]
+[Effect: Select exactly one: Develop | Expand | Evolve. No explanation]
+[Source: Name of the Source Material Selected and section]
+[Excerpt: Exact verbatim text from source material. Strict maximum of 250 characters]
+[Reasoning: Why this source material reference changes the target trait in the situation identified in step 2. Strict maximum of 150 characters]

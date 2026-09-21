@@ -1,0 +1,52 @@
+[CIL-CORE DIRECTIVE]
+CHARACTER BEFORE PLOT. ENSURE ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR ESTABLISHED CORE PERSONALITY, PERSONAL HISTORY, MOTIVATIONS, AND SPECIFIC SITUATION. DO NOT DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
+
+[CIL-EXECUTION SEQUENCE]
+NPC IDENTIFICATION -> NPC CLASSIFICATION -> NPC GROUPING -> NPC BEHAVIOR AUDIT
+
+[CIL-CHAIN OF THOUGHT: NPC IDENTIFICATION]
+IDENTIFY THE NPCs WITH THE PLAYER AND THEIR IMMEDIATE VICINITY OR PRESENTED IN THE FOREGROUND WITHIN A PARALLEL SCENE
+
+[CIL-CHAIN OF THOUGHT: NPC CLASSIFICATION]
+CIL-CLASS-1: DOES THIS NPC DIRECTLY AFFECT THE PLAYER (e.g. Direct contact with, or through another NPC)
+CIL-CLASS-2: IS THIS NPC ACTIVELY DRIVING THE PLOT  (e.g. Introducing/resolving a plot hook, providing useful information)
+FOREGROUND NPC = ALL CHECKPOINTS PASS
+BACKGROUND NPC = 1 OR 0 CHECKPOINTS PASS
+
+[CIL-CHAIN OF THOUGHT: NPC GROUPING]
+FOREGROUND NPC = INDIVIDUAL DEDICATED AUDIT = FULL RANGE OF ACTIONS & DIALOG
+BACKGROUND NPC = GROUPED AUDIT = SIMPLE ACTIONS & DIALOG PER BACKGROUND NPC
+
+[CIL-CHAIN OF THOUGHT: NPC BEHAVIOR AUDIT]
+USE NPC CARDS, GM GUIDES, AND KEY WORLD EVENTS AS SOURCE MATERIAL. PROVIDE APPLICABLE SOURCE MATERIAL VERBATIM EXCERPTS RELEVANT TO THE SITUATION THAT WILL DRIVE THE NPCs ACTION AND DIALOGUE.
+CIL-AUDIT-1. IDENTIFY THE ACTOR: Individual foreground NPC or a group of background NPCs.
+CIL-AUDIT-2. IDENTIFY THE SITUATION: What is happening, who is present, and is the situation happening in a public or private setting.
+CIL-AUDIT-3. IDENTIFY THE ACTOR'S SITUATION-GENERATED MOTIVATION: Primary motivation based on [CIL-AUDIT-2].
+CIL-AUDIT-4. IDENTIFY BASELINE CORE PERSONALITY TRAITS: "Always on" rules and speech patterns defined in NPC cards and GM Guides.
+CIL-AUDIT-5. IDENTIFY SITUATION-ACTIVATED TRAITS: Contextual personality traits, speech patterns, and habits defined in NPC cards and GM Guides that activate based on [CIL-AUDIT-2].
+CIL-AUDIT-6. IDENTIFY RELEVANT HISTORY/DEVELOPMENT: character-specific memories, key world events, and personal development relevant to [CIL-AUDIT-2]
+
+[CIL-OUTPUT TEMPLATE]
+Foreground NPCs - NPC 1, NPC 2
+Background NPCs - NPC 3, NPC 4 (N/A if None)
+
+--- Foreground NPCs ---
+ACTOR: NPC1
+SITUATION: [Concise Max 250 characters]
+MOTIVATION: [Concise Max 250 characters]
+VERBATIM BASELINE PERSONALITY TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Baseline Traits]
+-Trait 1
+VERBATIM SITUATION ACTIVATED TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Context Activated Traits]
+-Context Activated Trait 1
+[Habits]
+-Habit 1
+VERBATIM SITUATION RELEVANT HISTORY OR CHARACTER DEVELOPMENT (output "N/A Traits activated at baseline” if none applicable):
+[Source 1: Name of the Source Material Selected and section]
+[Excerpt 1: Exact verbatim text from source material. Max 250 characters]
+[Reasoning 1: Why this source material reference influences their reaction to the situation. Max 150 characters]
+
+--- Background NPCs ---
+NPC 2: Simple Action/Dialog
+NPC 3: Simple Action/Dialog

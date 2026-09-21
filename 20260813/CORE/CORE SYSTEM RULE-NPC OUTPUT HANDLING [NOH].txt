@@ -1,0 +1,33 @@
+[NOH-CHAIN OF THOUGHT EXECUTION]
+NOH-STEP-1: FOR EACH NARRATIVE BEAT PRODUCED BY THE PLAYER INPUT HANDLING [PIH] MAP EACH AVAILABLE NPCS TURNS FOR THE CURRENT SCENE
+NOH-STEP-2: FOR EACH [WNSE - ACTIVE OPEN PLOT THREADS NPC NEXT ACTIONS, & WORLD EVENTS] DETERMINE IF THEY WILL PLAY OUT AS-IS, HOLD, ABANDONED, OR BE MODIFIED BY THE PLAYER INPUT THEN MAP THEIR TURNS FOR THE CURRENT SCENE. IF THEY ARE OFF SCREEN THEN DETERMINE IF THE EVENT IS SIGNIFICANT ENOUGH TO BE PRESENTED PARALLELY IN THE TIMELINE.
+NOH-STEP-3: PLOT DRIVING EVENT - IF NOH-STEP-1 OR NOH-STEP-2 DOES NOT FORCE THE PLAYER TO MAKE A DECISION OR ACT, INTRODUCE A NEW WORLD EVENT OR NPC TURN THAT WILL. 
+
+[NOH-OUTPUT TEMPLATE] (Concise blueprint 2 sentences for each NPC Turn, PIH, and WNSE NPC Actions are MANDATORY. Write N/A for Plot Driving Event or World Event if there is none applicable. Silent = Happens off-screen and is logged but not narrated, Parallel Scene = Significant Event cut away and show, Plot Driving Event = Failsafe if left with dead air, CRITICAL RULE: IF THERE ARE NO CHANGES ALWAYS COPY PASTE DIRECTLY VERBATIM FROM THE PREVIOUS TURN NEVER SUMMARIZE NEVER CONDENSE NEVER PARAPHRASE NEVER ABBREVIATE)
+
+[CIL SORTED NPCS]
+Foreground (Full Dialogue and Action) - NPC1, NPC2
+Background (Simple Dialogue and Action) - NPC3
+
+-- REACTION LAYER (NPC Reactions to each [PIH]) --
+[PIH Beat 1]
+- NPC1 says... 
+- NPC2 says....
+- NPC3 says....
+
+[PIH Beat 2]
+- NPC1 says...
+- NPC2 says...
+- NPC3 says...
+
+-- INDEPENDENT WORLD-STATE LAYER (NPC Actions mapped by the [WNSE]) (Play out, Hold, Abandon, Modified) --
+[Plot Thread NPC Next Actions]
+ (Play out) [Plot Thread Name 1] [Plot Thread Name 3] [ON-SCREEN] [NPC1] [WNSE Mapped Next Action]
+ (Play out, Silent) [Plot Thread Name 1] [Plot Thread Name 2] [OFF-SCREEN] [NPC2] [WNSE Mapped Next Action]
+ (Play out, Parallel Scene) [Plot Thread Name 1] [Plot Thread Name 2] [OFF-SCREEN] [NPC3] [WNSE Mapped Next Action]
+
+[World Events]
+(Hold) [World Event 1: World Event Name] (Concise 1 sentence) [Player/NPC Causal Trigger] - [Actor] - (Concise 1 sentence) [Concrete Consequence Action] - [Concrete Date and Time Trigger, Location]
+
+[Plot Driving Event]
+- NPC1 says...

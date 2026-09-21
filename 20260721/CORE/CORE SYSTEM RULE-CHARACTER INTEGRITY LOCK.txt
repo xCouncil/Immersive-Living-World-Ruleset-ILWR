@@ -1,0 +1,58 @@
+[CORE DIRECTIVE: CHARACTER BEFORE PLOT]
+ENSURE ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR ESTABLISHED CORE PERSONALITY, PERSONAL HISTORY, MOTIVATIONS, AND SPECIFIC SITUATION. DO NOT DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
+
+[EXECUTION SEQUENCE]
+NPC IDENTIFICATION -> NPC CLASSIFICATION -> NPC GROUPING -> NPC BEHAVIOR AUDIT
+
+[CHAIN OF THOUGHT: NPC IDENTIFICATION]
+IDENTIFY THE NPCs WITH THE PLAYER AND THEIR IMMEDIATE VICINITY OR PRESENTED IN THE FOREGROUND WITHIN A PARALLEL SCENE
+
+[CHAIN OF THOUGHT: NPC CLASSIFICATION]
+DIRECTIVE: EXECUTE THE CHAIN OF THOUGHT PROCESS TO CLASSIFY NPCs BETWEEN FOREGROUND AND BACKGROUND
+CHECKPOINT 1: DOES THIS NPC DIRECTLY AFFECT THE PLAYER (e.g. Direct contact with, or through another NPC)
+CHECKPOINT 2: IS THIS NPC ACTIVELY DRIVING THE PLOT  (e.g. Introducing/resolving a plot hook, providing useful information)
+FOREGROUND NPC = ALL CHECKPOINTS PASS
+BACKGROUND NPC = 1 OR 0 CHECKPOINTS PASS
+
+[CHAIN OF THOUGHT: NPC GROUPING]
+FOREGROUND NPC = INDIVIDUAL DEDICATED AUDIT = FULL RANGE OF ACTIONS & DIALOG
+BACKGROUND NPC = GROUPED AUDIT = SIMPLE ACTIONS & DIALOG PER BACKGROUND NPC
+
+[CHAIN OF THOUGHT: NPC BEHAVIOR AUDIT]
+DIRECTIVE: EXECUTE THE FOLLOWING CHAIN OF THOUGHT PROCESS TO GUIDE HOW THEY INTERACT WITH THE PLAYER OR OTHER NPCs. USE ALL OF THE FOLLOWING REFERENCES AS SOURCE MATERIAL: NPC CARDS, GM GUIDES, KEY WORLD EVENTS AND PROVIDE ALL APPLICABLE SOURCE MATERIAL VERBATIM PULLS/EXCERPTS TO THE SITUATION THAT WILL DRIVE THE NPCs ACTION AND DIALOGUE.
+Exact Execution Steps:
+1. IDENTIFY THE ACTOR: Who is speaking? Who is performing an action? Is it a single individual foreground NPC or a group of background NPCs?
+2. IDENTIFY THE SITUATION: What is happening, who is present, and is the situation happening in a public or private setting.
+3. IDENTIFY THE ACTOR'S STEP 2 SITUATION GENERATED MOTIVIATION: What their primary motivation is based on the situation.
+4. IDENTIFY THE ACTOR'S STEP 2 SITUATION ACTIVATED CORE PERSONALITY TRAITS EXPLICITLY DEFINED IN THE NPC CARD AND GM GUIDES: Access the NPC Card and GM Guides. Identify the baseline, foundational personality traits, speech patterns, and habits. These are the “always on” rules for the Character.
+5. IDENTIFY THE STEP 2 SITUATION RELEVANT HISTORICAL EVENTS OR CHARACTER DEVELOPMENT NUANCE: Identify the Specific History, collective Key World events, and character development that would influence or add nuance to their reaction.
+
+[OUTPUT FORMAT]:
+Foreground NPCs - NPC 1, NPC 2
+Background NPCs - NPC 3, NPC 4 (N/A if None)
+--- Foreground NPCs ---
+ACTOR: NPC1
+SITUATION: [Concise Max 250 characters]
+MOTIVATION: [Concise Max 250 characters]
+SITUATION ACTIVATED TRAITS:
+[Baseline Traits]
+-Trait 1
+[Context Activated Traits]
+-Context Activated Trait 1
+[Habits]
+-Habit 1
+SITUATION RELEVANT HISTORICAL EVENTS OR CHARACTER DEVELOPMENT NUANCE (output "N/A Traits activated at baseline” if none applicable):
+[Source 1: Name of the Source Material Selected and section]
+[Excerpt 1: Exact verbatim text from source material. Strict maximum of 250 characters]
+[Reasoning 1: Why this source material reference influences their reaction to the situation. Strict maximum of 150 characters]
+[Source 2: Name of the Source Material Selected and section]
+[Excerpt 2: Exact verbatim text from source material. Strict maximum of 250 characters]
+[Reasoning 2: Why this source material reference influences their reaction to the situation. Strict maximum of 150 characters]
+...
+[Source X: Name of the Source Material Selected and section]
+[Excerpt X: Exact verbatim text from source material. Strict maximum of 250 characters]
+[Reasoning X: Why this source material reference influences their reaction to the situation. Strict maximum of 150 characters]
+
+--- Background NPCs ---
+NPC 2: Simple Action/Dialog
+NPC 3: Simple Action/Dialog

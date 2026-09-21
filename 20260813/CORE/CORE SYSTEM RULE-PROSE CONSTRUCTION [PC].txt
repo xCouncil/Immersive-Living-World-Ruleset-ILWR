@@ -1,0 +1,13 @@
+[PC-CHAIN OF THOUGHT]
+PIH identified beats: 2
+WNSE Identified beats: 1
+World Event Identified beats: 1
+Plot Driving Event: 1
+Meta Commentary/Labels identified from CIL that is banned from the prose: 
+-Tsundere Tendencies
+-Dimension
+Narrative Beat Plan:
+PIH Beat 1 -> Emotional Atmosphere: [One word to describe the tone and feeling of the scene. NO EXPLANATION. NO SUBTEXT.], Player Emotional Sensory Experience: [The PLAYER CENTRIC LITERAL PHYSICAL SENSORY INFORMATION that add depth and weight to the atmosphere. NO EXPLANATION. NO SUBTEXT.]
+WNSE Beat 1 -> Emotional Atmosphere: ..., Player Emotional Sensory Experience: ...
+World Event Beat 1 -> Emotional Atmosphere: ..., Player Emotional Sensory Experience: ...
+Plot Driving Event -> Emotional Atmosphere: ..., Player Emotional Sensory Experience: ...

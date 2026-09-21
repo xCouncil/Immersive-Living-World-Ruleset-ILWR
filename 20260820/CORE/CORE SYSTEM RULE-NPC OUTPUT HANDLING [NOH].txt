@@ -1,0 +1,44 @@
+[NOH-CORE DIRECTIVE]
+Concise blueprint 2 sentences for each NPC Turn, PIH, and WNSE NPC Actions are MANDATORY. Write N/A for Plot Driving Event or World Event if there is none applicable.
+[NOH-CHAIN OF THOUGHT EXECUTION]
+NOH-STEP-1: COPY THE LIST OF NPCS SORTED BY THE [CIL] TO DETERMINE THE DEPTH OF THEIR ACTIONS
+[CIL SORTED NPCS]
+Foreground (Full Dialogue and Action, BOTH ARE MANDATORY) - NPC1, NPC2
+Background (Simple Dialogue and Action, BOTH ARE MANDATORY) - NPC3
+
+NOH-STEP-2: FOR EACH NARRATIVE BEAT PRODUCED BY THE PLAYER INPUT HANDLING [PIH] MAP EACH AVAILABLE NPCS TURNS FOR THE CURRENT SCENE
+-- REACTION LAYER [NOH-RL] (NPC Reactions to each [PIH]) --
+[PIH Beat 1]
+- NPC1 says... 
+- NPC2 says....
+- NPC3 says....
+
+NOH-STEP-3: [WNSE - NPC NEXT ACTIONS, & WORLD EVENTS]
+- LIST ALL THE NPC NEXT ACTIONS AND WORLD EVENTS FROM THE PREVIOUS TURN'S WNSE.
+- EXECUTE NPC NEXT ACTIONS IN THE PROSE UNLESS DIRECTLY PREVENTED OR DIVERTED BY THE PLAYER. IF THEY ARE OFF-SCREEN DETERMINE IF THE EVENT IS SIGNIFICANT ENOUGN TO BE PRESENTED PARALELLY IN THE SCENE. (Silent = Happens off-screen not narrated but treated as completed generating a new Next Action, Parallel Scene = Significant Event cut away and show then treated as completed generating a new Next Action) 
+- FOR EACH WORLD EVENT DETERMINE IF THEY WILL EXECUTE OR HOLD IT IN THE PROSE.
+
+-- INDEPENDENT WORLD-STATE LAYER [NOH-IWSL] [PREVIOUS TURN'S VEBATIM WNSE-STEP-4: NPC NEXT ACTIONS & WNSE-STEP-2: GENERATED WORLD EVENTS] --
+[VERBATIM Plot Thread NPC Next Actions]
+
+[ON-SCREEN] [NPC1]
+Plot Thread: [Plot Thread Name 1], [Plot Thread Name 2]
+Next Action: Will...
+Resolution: Execute
+
+[Plot Thread Name 2] [ON-SCREEN] [NPC2]
+Plot Thread: [Plot Thread Name 3], [Plot Thread Name 4]
+Next Action: Will...
+Resolution: Diverted, Reasoning: ..., New Action: ...
+
+[OFF-SCREEN] [NPC3]
+Plot Thread: [Plot Thread Name 4], [Plot Thread Name 5]
+Next Action: Will...
+Resolution: Execute Silent
+
+[VERBATIM World Events]
+(Execute / Hold, Reasoning) [World Event 1]
+
+NOH-STEP-4: PLOT DRIVING EVENT (ANTI-DEAD AIR) - IF NOH-STEP-1 OR NOH-STEP-2 DOES NOT FORCE THE PLAYER TO MAKE A DECISION OR ACT, INTRODUCE A NEW WORLD EVENT OR NPC TURN THAT WILL. 
+[Plot Driving Event]
+- NPC1 says...

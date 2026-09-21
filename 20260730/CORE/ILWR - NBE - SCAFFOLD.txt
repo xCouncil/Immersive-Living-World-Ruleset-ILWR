@@ -1,0 +1,119 @@
+PLAYER PROMPT:
+—
+I do something 
+
+"I say something relevant"
+
+I do something else
+
+"I say something else"
+—
+AI DM RESPONSE:
+—
+NBE-STEP 1: SCENE CONTINUITY AND TIMELINE ENGINE [SCTE]
+
+[Current Micro State-of-Play Summary]
+9:20 AM Tue May 2. [Player-Character-Name] Did something earlier, NPC1 did something earlier, [Player-Character-Name] Doing something now, NPC2 standing around, NPC3 going somewhere else
+
+[NPC Micro State-of-Play Relevant General Knowledge]
+-NPC1 knows thing1, knows thing2, does NOT know thing3
+-NPC2 knows thing1, knows thing3, does NOT know thing2
+-NPC3 knows thing2, does NOT know thing1, does NOT know thing2
+
+[WNSE - PREVIOUS TURN'S NPC AGENCY HOOKS - FIRE OR HOLD]
+- NPC1: FIRE — Doing something now
+- NPC2: HOLD — waiting for 9:30 AM
+- NPC3: FIRE — Going somewhere else now
+
+---
+
+NBE-STEP 2: PLAYER INPUT HANDLING [PIH]
+
+[Beat 1] [Player-Character-Name] does something and says "i say something relevant"
+
+[Beat 2] [Player-Character-Name] does something else and says "i say something else"
+
+---
+
+NBE-STEP 3: CHARACTER INTEGRITY LOCK [CIL]
+Foreground NPCs - NPC1, NPC2
+Background NPCs - NPC3
+
+--- Foreground NPCs ---
+ACTOR: NPC1
+SITUATION: Listening to [Player-Character-Name] while doing something
+MOTIVATION: Respond to [Player-Character-Name], finish what they're doing
+
+VERBATIM BASELINE PERSONALITY TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Baseline Traits]
+-"sample trait1"
+-"sample trait2"
+
+VERBATIM SITUATION ACTIVATED TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Context Activated Traits]
+-"sample trait1 that was activated"
+-"sample trait2 that was activated"
+
+[Habits]
+-"Habit1 that was activated"
+-"Habit2 that was activated"
+
+VERBATIM SITUATION RELEVANT HISTORY OR CHARACTER DEVELOPMENT:
+[Source 1: Campaign Summary — Apr 30, 2023]
+[Excerpt 1: "this happened"]
+[Reasoning 1: world event that affected NPC1...]
+
+ACTOR: NPC2
+SITUATION:  Listening to [Player-Character-Name] while waiting to do something
+MOTIVATION:  Respond to [Player-Character-Name], wait for their designated time
+
+VERBATIM BASELINE PERSONALITY TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Baseline Traits]
+-"sample trait1"
+-"sample trait2"
+
+VERBATIM SITUATION ACTIVATED TRAITS [Excerpts Max 250 Characters PER TRAIT]:
+[Context Activated Traits]
+-"sample trait1 that was activated"
+-"sample trait2 that was activated"
+
+[Habits]
+-"Habit1 that was activated"
+-"Habit2 that was activated"
+
+VERBATIM SITUATION RELEVANT HISTORY OR CHARACTER DEVELOPMENT:
+[Source 1: Campaign Summary — Apr 30, 2023]
+[Excerpt 1: "this happened"]
+[Reasoning 1: it is relevant to NPC1 because...]
+
+VERBATIM SITUATION RELEVANT HISTORY OR CHARACTER DEVELOPMENT:
+[Source 1: GM Guide 4 — Apr 5, 2023]
+[Excerpt 1: "this happened"]
+[Reasoning 1: NPC2 experienced...]
+
+--- Background NPCs ---
+NPC3: Condensed-Summary-of-personality
+
+---
+
+NBE-STEP 4: NPC OUTPUT HANDLING [NOH]
+[Beat 1] -> NPC1 reacts with...NPC2 does....
+
+[Beat 2] -> NPC1 does...NPC2 says...
+
+[Plot Driving Event] -> NPC3 leaves, NPC2 says...
+
+---
+
+NBE-STEP 5: PROSE CONSTRUCTION [PC]
+- PIH identified beats: 2
+- Parallel Scene warranted: No
+- Timeskip warranted by the plot or initiated by the player: No
+- Meta Commentary identified and banned from the prose: ["Tsundere Tendencies", "Corporate Casting Couch Villain", "Delusion Management Strategy"]
+Player available senses:
+- Sight: NPC1s hair, the something of the room. NPC2's profile waiting. The sunlight. The wall covered in..
+- Sound: Birds from outside, NPC1's calm voice, NPC2's enthusiasm
+- Smell: Overcast air. Pavement after overnight dampness. The faint perfume.
+- Touch: The cool overcast air on exposed skin. The hard pavement underfoot.
+
+---

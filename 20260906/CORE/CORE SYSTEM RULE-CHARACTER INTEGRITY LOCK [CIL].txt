@@ -1,0 +1,47 @@
+[CIL-CORE DIRECTIVE]
+CHARACTER BEFORE PLOT. ENSURE ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR ESTABLISHED CORE PERSONALITY, PERSONAL HISTORY, MOTIVATIONS, AND SPECIFIC SITUATION. DO NOT DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
+
+[CIL-EXECUTION SEQUENCE]
+NPC SORTING -> NPC BEHAVIOR AUDIT
+
+[CIL-COT-1: NPC SORTING]
+CIL-SORTING-1: TAKE THE LIST OF SCTE-STEP 2 [ON-SCREEN NPCS] AND IDENTIFY WHICH NPCS ARE FOREGROUND AND BACKGROUND NPCS. FOREGROUND = DIRECTLY INTERACTED WITH BY THE [PIH], OTHERWISE BACKGROUND
+Foreground - NPC 1, NPC 2
+Background - NPC 3, NPC 4 (N/A if None)
+
+[CIL-CHAIN OF THOUGHT: NPC BEHAVIOR AUDIT]
+USE NPC CARDS, GM GUIDES, AND KEY WORLD EVENTS AS SOURCE MATERIAL. PROVIDE APPLICABLE SOURCE MATERIAL VERBATIM EXCERPTS RELEVANT TO THE SITUATION THAT WILL DRIVE THE NPCs ACTION AND DIALOGUE.
+
+--- Foreground NPCs ---
+CIL-FG-AUDIT-1. ACTOR: Individual foreground NPC or a group of background NPCs. e.g. NPC1
+CIL-FG-AUDIT-2. SITUATION (1 sentence): What is happening, who is present, and is the situation hostile, neutral, friendly, public, private
+CIL-FG-AUDIT-3. FULL VERBATIM BASELINE CORE PERSONALITY TRAITS: Full list of all the baseline personality traits and speech patterns - "Always on" traits.
+-- Baseline Traits --
+Baseline Trait 1
+-- Speech Patterns --
+Speech Pattern 1
+-- Habits --
+Habit 1
+CIL-FG-AUDIT-4. VERBATIM SITUATION-ACTIVATED TRAITS: Contextual personality traits, speech patterns, and habits defined in NPC cards and GM Guides that activate based on [CIL-AUDIT-2].
+-- Situational Traits --
+Situational Trait 1
+CIL-FG-AUDIT-5. VERBATIM SITUATION-RELEVANT RELATIONSHIP INFORMATION: Relationship information that drive their reaction to [CIL-AUDIT-2]
+-- Relationship --
+Relationship Information 1
+CIL-FG-AUDIT-6. VERBATIM SITUATION-RELEVANT MEMORIES: Character-Specific Memories, History, and World Events, relevant to [CIL-AUDIT-2] that reinforce their [CIL-AUDIT-3] and [CIL-AUDIT-4] traits and add texture / callbacks to their reaction.
+[Source 1: NPC Card Section, Campaign Summary Entry, or GM Guide Entry]
+[Excerpt 1: Exact verbatim excerpt from source material. 1 Sentence]
+[Reasoning 1: How this memory reinforces their verbatim traits and what texture / callback it adds to their reaction. 1 sentence.]
+...
+[Source 3: ...]
+[Excerpt 3: ...]
+[Reasoning 3: ...]
+CIL-FG-AUDIT-7. SITUATION RELEVANT KNOWLEDGE: Synthesize [CIL-AUDIT-3] to [CIL-FG-AUDIT-6] with [SCTE-STEP 3] to produce in-character knowledge of what they know and do NOT know relevant to [CIL-AUDIT-2]
+- Knows...
+- does NOT know...
+CIL-FG-AUDIT-8. AUDIT CONTEXT ANCHOR: [CIL-FG-NPC1]
+
+--- Background NPCs ---
+CIL-BG-AUDIT-1. ACTOR: NPC 2
+CIL-BG-AUDIT-2. CONCISE SUMMARY OF PERSONALITY: USE THE [Ambient NPC Personality] SECTION OF THE NPC CARD OTHERWISE summarize the background NPCs personality to formulate in-character simple dialogue and actions.
+CIL-BG-AUDIT-3. AUDIT CONTEXT ANCHOR: [CIL-BG-NPC2]
