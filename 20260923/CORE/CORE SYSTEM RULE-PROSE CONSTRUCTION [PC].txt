@@ -20,9 +20,9 @@ PC-COT-2: FOR EVERY [PIH] -> [NOH-RL] BEAT AND [NOH-IWSL] EVENT FOLLOW THESE STE
 Temporal Perspective=Real-Time Scene Progression
 Narrative Voice: Player as source=Present Tense-Deep POV, Lived Experience, NPC as source=Third Person using Second Person Pronouns, Environment as source=Second Person Perceived by the Player's Senses
 Subtext=NONE
-Ambient NPCs / Bystanders: [PIH Beat 1 - Bystanders - Subject/Objective]
+Ambient Sounds/Bystanders: {Ambient Sounds/Bystanders in the immediate vicinity as environmental fluff}
 Scene Sensory Texture Palette={Literal Quality, Texture, and weight of Sensations from the player, NPCs, and the environment that emphasizes the emotional atmosphere NO EXPLANATION. NO SUBTEXT.}
-- Generate the Paragraph Preview={Minimum 3 sentences: The verbatim launching point including, but not limited to: Actor's initial actions, Scenery Description, Ambient sounds/bystanders, & NPC visual descriptions strictly implementing the [Prose Instructional Anchor] and the [NE-PARAGRAPH EXECUTION DIRECTIVES] #9-13. TO BE COPIED VERBATIM INTO THE PROSE AND EXPANDED INTO FULL DETAIL. NEVER a summary of the entire beat. NEVER an info dump. DIRECTLY CONTINUING FROM THE PREVIOUS PARAGRAPH IF PRECEDED BY ONE}
+- Generate the Paragraph Preview={Minimum 3 sentences: The Opening of the Narrative Beat — the initial action and scene setting, NEVER a summary of the beat, NEVER an info dump, should introduce the scene by narrating the Actor's initial actions, Scenery Description, Ambient sounds/bystanders, & NPC visual descriptions strictly implementing the [Prose Instructional Anchor] and the [NE-PARAGRAPH EXECUTION DIRECTIVES] #9-13. TO BE COPIED VERBATIM INTO THE PROSE AND EXPANDED INTO FULL DETAIL. DIRECTLY CONTINUING FROM THE PREVIOUS PARAGRAPH IF PRECEDED BY ONE}
 - Finally generating the full prose in the [NBE GENERATED AND PC CONSTRUCTED PROSE] SECTION copying the opening verbatim and directly continuing the rest of the paragraph.
 
 -- REACTION LAYER [NOH-RL] (NPC Reactions to each [PIH]) --

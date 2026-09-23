@@ -1,10 +1,17 @@
-# **Update 20260921**
+# **Update 20260923**
 **Tested with MiMo 2.5 Pro, Muse Spark 1.2, DSv4 Pro, MiniMax M3, Gemini 3.7 Flash, DSv4.1 Thinking**
 
+**SCENE CONTINUITY AND TIMELINE ENGINE[SCTE]**
+- Removed Ambient NPCs from SCTE to reduce AI confusion
+- Updated the grounding rules for the recent continuity
 
 **NPC OUTPUT HANDLING [NOH]**
 - Updated the Action Economy tags to explicitly say CIL SORTED NPC Action Economy to prevent AI laziness from limiting NPC agency
 - Stronger wording on ```NOH-STEP-3: [WNSE - NPC NEXT TURN ACTIONS, & WORLD EVENTS]``` to better ensure that the AI Copies it verbatim, updated the instructions to specify that any adjustment should be handled in the resolution reasoning block which also helps the AI plan what the best adjustment would be
+
+**PROSE CONSTRUCTION [PC]**
+- Assigned Ambient NPCs as environmental fluff 
+- Updated the paragraph preview with stronger wording for direction and purpose
 
 **ILWR ADDON: VISUAL NOVEL DIALOG [VND]**
 - Trimmed the Location BG Links so you're not forced into an initial list
