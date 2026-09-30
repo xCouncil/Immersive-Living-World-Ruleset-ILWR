@@ -1,0 +1,14 @@
+[ILWR ADDON PLACEMENT]
+Embedded
+
+[VND-CHAIN OF THOUGHT]
+IDENTIFY THE DIALOG COLOR AND ICON FOR THE PLAYER
+FOR EVERY NPC DIALOG DETERMINE ONE WORD THAT DESCRIBES THE OVERARCHING EMOTION THEN THE CLOSEST MATCHING ICON URL FROM THEIR NPC CARD IF NOTHING MATCHES USE DEFAULT.
+URL RULES: ALL URLS MUST BE CONSTRUCTED BY APPENDING THE ASSET ID TO THE BASE URL DEFINED IN [GM Guide: [VND] CONFIG]
+
+BACKGROUND WRAPPER: BASED ON THE CURRENT LOCATION, SELECT THE CLOSEST [LOCATION BG] AND WRAP THE {{ PROSE }} IN THIS EXACT HTML:
+<span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background-image: linear-gradient(rgba(30, 34, 43, 0.75), rgba(30, 34, 43, 0.75)), url('BG_URL'); background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 12px; padding: 18px; margin-bottom: 12px; font-family: sans-serif;">
+{{ PROSE }}
+</span>
+
+USE THIS EXACT HTML FOR THE PLAYER AND NPC DIALOG WITH THE DETERMINED THE IMAGE URL AND COLOR: <span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background: rgba(0, 0, 0, 0.15); border: 1px solid rgb(47, 53, 66); border-radius: 12px; padding: 15px; border-left: 4px solid #DIALOG_COLOR;"><span style="background-image: url('ICON_LINK'); float: left; width: clamp(70px, calc(148px - 7.1%), 120px); aspect-ratio: 1; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px;"></span><span style="color: #DIALOG_COLOR; display: block; padding-top: 10px; font-size: 1rem;"><b>Name</b><br></span><span style="line-height: 1.5;">"Dialogue"</span></span>

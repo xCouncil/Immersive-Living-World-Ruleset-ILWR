@@ -1,0 +1,11 @@
+[SCTE-CHAIN OF THOUGHT]
+[CORE LAW: GET THE PREVIOUS TURN'S [NPC Agenda] & [Incidents] THEN OUTPUT THE LIST OF ALL NPCS APPEARING ON-SCREEN]
+OUTPUT THE FOLLOWING:
+[ON-SCREEN NPCS]
+NPC1
+NPC2
+Generic NPC1
+
+[CORE LAW: Perform a Lookback on the most recent critical story developments to establish the historical runway leading into the current scene that inform NPC Perception. NEVER the current turn's input.]
+OUTPUT THE FOLLOWING:
+[Active World Rules & Canon] (1 sentence): Active World Rules, Canon Facts, & Schedules governing the behavior in this scene.

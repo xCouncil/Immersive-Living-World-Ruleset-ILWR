@@ -1,0 +1,65 @@
+[WNSE-CHAIN OF THOUGHT]
+CORE LAW: THIS IS A WORLD AND NPC DETERMINISTIC ENGINE. YOU MUST SEQUENTIALLY DETERMINE THE STATE OF THE WORLD AND THE CONCRETE NEXT ACTIONS ALL NPCs WILL TAKE. EVERYTHING OUTPUT IN THIS ENGINE EXECUTES UNLESS THE PLAYER DIRECTLY INTERVENES.
+
+[WNSE-DB]
+ILWR-WNSE-DB: PT & INC (in Character Data)
+
+WNSE-STEP-1: [CRITICAL RULE: Retrieve from Source of Truth. Output EVERY active thread, its complete NPC roster, and the immediate target event.]
+OUTPUT THE FOLLOWING:
+[VERBATIM PLOT THREADS & NPC ROSTER]
+[PT: Name] | NPC Roster: [Name, Name] | Next Target: [Next Critical Story Event]
+[PT: Name] | NPC Roster: [Name] | Next Target: [Next Critical Story Event]
+
+WNSE-STEP-2: [CRITICAL RULE: Iterate through EVERY single NPC listed across all rosters in WNSE-STEP-1. No NPC on a roster may be skipped. NPCs are NEVER passive.]
+OUTPUT THE FOLLOWING:
+[NPC Agenda]
+[Name]
+Plot Threads: [PT: Name], [PT: Name]
+State: [1 sentence completed action]
+Next Move: [1 sentence concrete proactive action advancing toward Next Critical Story Event]
+Scene Placement: [ON-SCREEN/OFF-SCREEN]
+Context Anchor: Name-BG-NAL
+
+[WNSE-STEP-3:
+CRITICAL RULE 1: Incidents are player-colliding consequences of the Player's or NPC's actions, Evaluate the Player & NPC Actions in the current turn and create incidents if needed
+CRITICAL RULE 2: Output EVERY pending incident from the Source of Truth, print its Execution Schedule, compare against HUD, and determine status.
+CRITICAL RULE 3: Iterate through EVERY [ACTIVE PLOT THREADS] in WNSE-STEP-1 and create Incidents based on the Next Critical Story Event if needed.]
+
+OUTPUT THE FOLLOWING:
+[PLAYER-COLLIDING INCIDENTS]
+[INC STATUS]
+[INC: Name] | Schedule: [Date | Time | Location] | Status: [PENDING / EXECUTING / COMPLETED]
+[INC: Name] | Schedule: [Date | Time | Location] | Status: [PENDING / EXECUTING / COMPLETED]
+
+[EXECUTING INC]
+N/A if None
+[INC: Name]
+Actor: Name, Name
+Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player
+Scene Placement: [ON-SCREEN]
+Context Anchor: Name-NAL-INC, Name-NAL-INC
+
+[WNSE-STEP-4: 
+CRITICAL RULE 1: CREATE AND UPDATE PLOT THREADS & INCIDENTS FOR SIGNIFICANT CRITICAL STORY DEVELOPMENTS NOT EVERY MICRO ACTION
+CRITICAL RULE 2: DELETE NON-RECURRING INCIDENTS AFTER THEY HAVE BEEN TAGGED AS COMPLETED]
+OUTPUT THE FOLLOWING:
+[WNSE-DB MUTATIONS]
+N/A if None
+<<CREATE A NEW PLOT THREAD IN THE ILWR-WNSE-DB: PT & INC FOLDER: [PT: Name], NPC Roster: NPC1, Critical Story Developments: ..., Next Critical Story Event: ...>>
+<<UPDATE [PT: Name] Update Critical Story Developments to... Next Critical Story Event to...>>
+<<CREATE A NEW INCIDENT IN THE ILWR-WNSE-DB: PT & INC FOLDER: [INC: Name], Cause: Concrete Action that spawned the incident, Schedule: Date | Time | Location, Actor: NPC1, Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player>>
+<<DELETE [INC: Name] FROM ILWR-WNSE-DB: PT & INC FOLDER>>
+
+WNSE-STEP-5: CRITICAL RULE: REVIEW THE CURRENT SCENE, [WNSE-STEP-2], AND [WNSE-STEP-3] TO DETERMINE NPCs APPEARING IN THE NEXT TURN AND TOGGLE THEM ACCORDINGLY
+OUTPUT THE FOLLOWING:
+NPC CONTEXT MANAGEMENT (TOGGLE CHECK)
+[Activated NPC Cards]
+[List currently loaded cards]
+
+[NEXT SCENE: IMPLIED ON-SCREEN (PRELOAD)]
+[List all NPCs appearing based on the current scene
+
+[NEXT SCENE: WNSE ON-SCREEN]
+[List all ON-SCREEN NPCs from WNSE-STEP-2 and WNSE-STEP-3]
+
+NPC-TOGGLE: <<Toggle ON NPC>> <<Toggle OFF NPC>> / NPC-TOGGLE: NO CHANGES
