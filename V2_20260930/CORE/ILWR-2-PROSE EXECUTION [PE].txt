@@ -31,9 +31,9 @@ OUTPUT THIS NARRATION FORMAT:
 ------
 <details>
 <summary>PROSE CONSTRUCTION PIPELINE [PC]</summary>
-[PCP]
+[PC]
 </details>
-[PCP GENERATED PROSE]
+[PC GENERATED PROSE]
 ------
 <details>
 <summary>WORLD AND NPC STATE ENGINE [WNSE]</summary>
