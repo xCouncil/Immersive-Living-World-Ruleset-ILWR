@@ -56,7 +56,7 @@ Name2-Location: ...
 ## Visual Novel Dialog Changes
 > ### ⚠️AI Realm caps  the output tokens  at 10k, the current state of the Visual Novel Mode requires a lot of tokens for the HTML, consider removing the backgrounds if your scenes are long or have multiple NPCs
 
-> ### 🎉 The VND is fully standalone even without ILWR that cleanly separates the Instructions and the config allowing you to change the CSS easily, context usage is also reduced.
+> ### 🎉 The VND is fully standalone even without ILWR that cleanly separates the Instructions and the config allowing you to change the CSS easily, context usage is also reduced. I highly recommend creating an NPC Card for your character so you can create an icon for it and zoom in to your characters lovely face!
 
 - AI GM Instructions isolated in  `VISUAL NOVEL DIALOG [VND]`
 - Links and Configuration should go in into another GM Guide `[VND] Config`
