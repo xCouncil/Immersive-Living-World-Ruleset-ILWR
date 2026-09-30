@@ -472,7 +472,7 @@ Name2-Location: ...
 - To remove the background simply delete the instruction for the `BACKGROUND WRAPPER`
 
 
-Credits to @Alaska for the idea, updating the instruction to:
+Credits to @violetsama for the idea, updating the instruction to:
 > URL RULES: ALL URLS MUST BE CONSTRUCTED BY APPENDING THE ASSET ID TO THE BASE URL https://storage.googleapis.com/airealm-prod-images/npc-images/npc_YOUR_CHAT_ID_HERE
 
 Your Chat ID is the numbers and letters you see at the end of your chat e.g. https://airealm.com/user/viewChat/**123abcd** 
