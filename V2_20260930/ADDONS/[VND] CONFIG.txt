@@ -10,5 +10,5 @@ Generic Female NPC | #9E9E9E | Default - _2357548.jpg
 
 [LOCATION BG]
 FALLBACK BG (When none are applicable): _2333427.jpg
-Location - BG URL
-Combat - _2357558.jpg
+Location - BG URL - DARK/LIGHT
+Combat - _2357558.jpg - DARK

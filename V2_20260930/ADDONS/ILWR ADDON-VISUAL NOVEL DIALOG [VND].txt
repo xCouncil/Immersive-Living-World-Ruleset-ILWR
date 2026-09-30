@@ -6,8 +6,10 @@ IDENTIFY THE DIALOG COLOR AND ICON FOR THE PLAYER
 FOR EVERY NPC DIALOG DETERMINE ONE WORD THAT DESCRIBES THE OVERARCHING EMOTION THEN THE CLOSEST MATCHING ICON URL FROM THEIR NPC CARD IF NOTHING MATCHES USE DEFAULT.
 URL RULES: ALL URLS MUST BE CONSTRUCTED BY APPENDING THE ASSET ID TO THE BASE URL DEFINED IN [GM Guide: [VND] CONFIG]
 
-BACKGROUND WRAPPER: BASED ON THE CURRENT LOCATION, SELECT THE CLOSEST [LOCATION BG] AND WRAP THE {{ PROSE }} IN THIS EXACT HTML:
-<span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background-image: linear-gradient(rgba(30, 34, 43, 0.75), rgba(30, 34, 43, 0.75)), url('BG_URL'); background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 12px; padding: 18px; margin-bottom: 12px; font-family: sans-serif;">
+BACKGROUND WRAPPER: BASED ON THE CURRENT LOCATION, SELECT THE CLOSEST [LOCATION BG] AND WRAP THE {{ PROSE }} IN THIS EXACT HTML. 
+IF THE LOCATION IS LIGHT USE THIS LINEAR_GRADIENT rgba(30, 34, 43, 0.75), rgba(30, 34, 43, 0.75)
+IF THE LOCATION IS DARK USE THIS LINEAR_GRADIENT rgba(30, 34, 43, 0.7), rgba(30, 34, 43, 0.7)
+<span style="display: flow-root; clear: both; max-width: 1600px; box-sizing: border-box; background-image: linear-gradient(LINEAR_GRADIENT), url('BG_URL'); background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 12px; padding: 18px; margin-bottom: 12px; font-family: sans-serif;">
 {{ PROSE }}
 </span>
 

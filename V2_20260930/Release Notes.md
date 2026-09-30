@@ -72,7 +72,19 @@ Icon - Default - _2357528.jpg
 Icon - Focused/Determined - _2357536.jpg
 ```
 
-**Also reduced the background dark overlay so the beautiful backgrounds are a little more visible**
+Credits to @pitifuldelay for the idea
+**You can now change how harsh the background overlay is depending on your BG**
+
+In your location BG you can add DARK/LIGHT to it to indicate whether the BG is too bright
+- DARK = Image is dark, less harsh background overlay, you should be able to see the BG more
+- LIGHT = Image is light and drowns out whites, harsher background overlay so both the narration and the BG is still visible
+
+```
+[LOCATION BG]
+FALLBACK BG (When none are applicable): _2333427.jpg
+Location - BG URL - DARK/LIGHT
+Combat - _2357558.jpg - DARK
+```
 
 ---
 ## **Migrating from V1 to V2**
