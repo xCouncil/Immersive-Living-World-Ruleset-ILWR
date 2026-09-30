@@ -52,6 +52,15 @@ Name2-Location: ...
 
 **Easier searching, like looking for a needle in a haystack in the dark but the needle glows**
 
+credits to @boulderbackfire for the idea
+
+**Create a TAG** section in your NPC cards with an abbreviation of the name e.g.  this saves tokens when referenced by the ILWR and is the preferred way for it to identify NPCs, it will not bleed into the prose as the NPCs are still referenced by their name
+
+```
+NPC: Mami Nanami
+Mami Nanami-Tag: MAM
+```
+
 ---
 ## Visual Novel Dialog Changes
 > ### ⚠️AI Realm caps  the output tokens  at 10k, the current state of the Visual Novel Mode requires a lot of tokens for the HTML, consider removing the backgrounds if your scenes are long or have multiple NPCs
