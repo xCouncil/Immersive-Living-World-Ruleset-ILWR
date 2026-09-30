@@ -1,4 +1,4 @@
-# **Update 20260930 - ILWR V2 (PRE-RELEASE)**
+# **Update 20260930 - ILWR V2**
 **Tested with MiMo 2.5/2.6 Free/Pro, Gemini 3.7 Flash, Gemini 3.8, DS 4.1 Flash Thinking**
 
 # **ILWR V2**
