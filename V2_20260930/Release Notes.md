@@ -1,6 +1,7 @@
 # **Update 20260930 - ILWR V2**
 **Tested with MiMo 2.5/2.6 Free/Pro, Gemini 3.7 Flash, Gemini 3.8, DS 4.1 Flash Thinking**
 
+
 # **ILWR V2**
 Special Thanks to @boulder & @dumpy for playtesting V2, its through their efforts that V2 was able to be released in a timely manner
 
@@ -8,6 +9,11 @@ Special Thanks to @boulder & @dumpy for playtesting V2, its through their effort
 - **80% Reduction in Token Output / Scratchpad Bloat**
 - **Uses Auto Updates to Manage the Dynamic Events and Plot Threads in the Character Data**
 - **Retains the Same functionality, Immersive NPCs and a living breathing world that advances on its own**
+
+---
+
+## Files: [V2_20260930](https://github.com/xCouncil/Immersive-Living-World-Ruleset-ILWR/tree/master/V2_20260930)
+
 
 ## Structural Changes:
 Core Files renamed and re-written
