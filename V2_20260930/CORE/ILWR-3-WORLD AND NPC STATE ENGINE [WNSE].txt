@@ -45,7 +45,7 @@ CRITICAL RULE 2: DELETE NON-RECURRING INCIDENTS AFTER THEY HAVE BEEN TAGGED AS C
 OUTPUT THE FOLLOWING:
 [WNSE-DB MUTATIONS]
 N/A if None
-<<CREATE A NEW PLOT THREAD IN THE ILWR-WNSE-DB: PT & INC FOLDER: [PT: Name], NPC Roster: NPC1, Critical Story Developments: ..., Next Critical Story Event: ...>>
+<<CREATE A NEW PLOT THREAD IN THE ILWR-WNSE-DB: PT & INC FOLDER: [PT: Name], NPC Roster: NPC1, Long Term Objective: ..., Critical Story Developments: ..., Next Critical Story Event: ...>>
 <<UPDATE [PT: Name] Update Critical Story Developments to... Next Critical Story Event to...>>
 <<CREATE A NEW INCIDENT IN THE ILWR-WNSE-DB: PT & INC FOLDER: [INC: Name], Cause: Concrete Action that spawned the incident, Schedule: Date | Time | Location, Actor: NPC1, Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player>>
 <<DELETE [INC: Name] FROM ILWR-WNSE-DB: PT & INC FOLDER>>
