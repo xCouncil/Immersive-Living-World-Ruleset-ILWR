@@ -17,7 +17,7 @@
 LOAD THE LIST OF ADDONS IN THE [ILWR: ADDONS] SECTION AND EXECUTE THEM BASED ON THEIR [ILWR ADDON PLACEMENT]
 Header = Execute in the [ILWR ADDONS - HEADERS] section
 Footer = Execute in the [ILWR ADDONS - FOOTERS] section
-Embedded = Execute in the [PC GENERATED PROSE] where applicable
+Embedded = Execute in the [NBE GENERATED AND PC CONSTRUCTED PROSE] where applicable
 
 OUTPUT THIS NARRATION FORMAT:
 
