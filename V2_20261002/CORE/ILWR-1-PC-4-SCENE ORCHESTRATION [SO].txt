@@ -1,0 +1,59 @@
+[SO-CHAIN OF THOUGHT]
+[CORE LAW: Scaffold every Narrative Beat by attaching the CIL Anchor for participating NPCs]
+
+[NARRATIVE BEAT LAYER RULES: 
+1. Primary and Foreground NPC LAYER [FG]: SCAFFOLD THE Primary and Foreground NPCs reacting to each [PIH] IN CHRONOLOGICAL ORDER
+2. BACKGROUND LAYER [BG]: SCAFFOLD THE BACKGROUND NPCs Actions & Dialog (Banter/Chatter/Observations) in Chronological Order
+3. NPC AGENDA LAYER [NAL] (PREVIOUS TURN'S [NPC Agenda] AS A DIRECT CONTINUATION OF THE [PIH-FG]): ENFORCE NPC AGENCY. UNLESS THE CURRENT TURN'S PIH DIRECTLY BLOCKS OR DIVERTS THE NPC'S [NPC Agenda] EXECUTE THEM.
+4. INCIDENT LAYER [INC] (PREVIOUS TURN'S [TRIGGERING INCIDENTS] AS A DIRECT CONTINUATION OF THE [BG-NAL]) (N/A if none): ENFORCE WORLD CONSEQUENCES BY EXECUTING THE PREVIOUS TURN'S VERBATIM [TRIGGERING INCIDENTS] AS A DIRECT CONTINUATION OF THE [BG-NAL]]
+
+OUTPUT THE FOLLOWING:
+[PIH]->[FG] Reaction
+[PIH] Narrative Beats: 2
+[FG] Actors: 3
+[Narrative Beat 1 - Chronological Order]
+1. [PIH-1-Action/Dialog/Mixed]
+2. [CIL-PM-TAG1-PIH-1-FG]
+3. [CIL-FG-TAG2-PIH-1-FG]
+4. [CIL-FG-GNPC1-PIH-1-FG]
+
+[Narrative Beat 2 - Chronological Order]
+1. [PIH-2-Action/Dialog/Mixed]
+2. [CIL-PM-TAG1-PIH-2-FG]
+3. [CIL-FG-TAG2-PIH-2-FG]
+4. [CIL-FG-GNPC1-PIH-2-FG]
+
+[BG] (Banter/Chatter/Observations CHRONOLOGICALLY AFTER [PIH]->[FG])
+[BG] Actors: 1
+[Narrative Beat 3 - Chronological Order]
+1. [CIL-BG-TAG3-FG-BG]
+
+[NAL] (PREVIOUS TURN'S [NPC Agenda] CHRONOLOGICALLY AFTER [BG])
+CRITICAL RULE: A JOINT/CONCURRENT [PIH] EXPANDS THEIR [NAL], REPLACING ACTIONS CONSUMED BY THE [PIH] KEEPING THE SAME INTENT
+[NAL] Actors: 2
+[Narrative Beat 4 - Chronological Order]
+1. [TAG1] - [CIL-PM-TAG1-BG-NAL]
+2. [TAG3] - [CIL-BG-TAG3-BG-NAL]
+
+[INC] (PREVIOUS TURN'S [EXECUTING INCIDENTS] CHRONOLOGICALLY AFTER [NAL])
+[INC] Actors: 2
+[Narrative Beat 5 - Chronological Order]
+1. [CIL-FG-TAG2-NAL-INC]
+2. [CIL-BG-GNPC1-NAL-INC]
+
+[CORE LAW: BANNED PROSE CONSTRAINTS]
+Literal personality or emotional labels (show physically instead)
+Narrator-explained callbacks or interpretations (characters must speak them)
+Third-person camera pull-backs
+Observation checklists
+Mechanical body part checklists
+
+[CORE LAW: NARRATIVE BEAT CONSTRAINTS] 
+EACH [Narrative Beat] MUST BE EXECUTED IN A DEDICATED MULTI-SENTENCE PARAGRAPH BLOCK FOLLOWING:
+1. CONTENT: Actor's physical action in progress, interleaved dialog, sensory environment, ambient sounds/bystanders, & Player/NPC visual descriptions
+2. TEMPORAL PERSPECTIVE: Real-Time Scene Progression
+3. NARRATIVE VOICE: Player as actor=Present Tense-Deep POV, Lived Experience | NPC as actor=Third Person with Second Person Pronouns for Player interaction | Environment as actor=Second Person Perceived by the Player's Senses
+4. SUBTEXT: NONE
+5. NPC ACTION ECONOMY: PM/FG: Multi Action, Max 2 interleaved Dial | BG: Single Action, Max 1 interleaved Dial | NEVER MUTE
+6. Scene Closure: Close out the scene by handing the initiative back to the player through observable phenomenon
+[SCENE_BACKGROUND_&_BYSTANDER_DETAILS]: {Literal Quality, Texture, and weight of Sensations from the player, NPCs, and the environment/bystanders that emphasizes the emotional atmosphere NO EXPLANATION. NO SUBTEXT.}
