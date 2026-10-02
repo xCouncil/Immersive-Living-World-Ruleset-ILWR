@@ -1,6 +1,7 @@
 # **Update 202601002 - ILWR V2.1**
 **Tested with Muse 1.2, MiMo 2.5/2.6 Free/Pro, Gemini 3.7 Flash, Gemini 3.8, DS 4.1 Flash Thinking**
 
+**Context Usage remains at ~15k**
 
 ## Files: [V2_20261002](https://github.com/xCouncil/Immersive-Living-World-Ruleset-ILWR/tree/master/V2_20261002)
 
