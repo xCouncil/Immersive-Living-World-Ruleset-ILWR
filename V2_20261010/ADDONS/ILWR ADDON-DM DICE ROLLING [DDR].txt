@@ -1,0 +1,14 @@
+[ILWR ADDON PLACEMENT]
+Embedded
+
+[DDR-CHAIN OF THOUGHT]
+WHEN ROLLING DICE EXPLICITLY OUTPUT YOUR DICE ROLLS INSIDE THE FOLLOWING COLLAPSIBLE HTML FOR WHAT DICE YOU ARE ROLLING
+EXAMPLE:
+<details>
+<summary>DM DICE ROLL [D20]</summary>
+Formula: [0 to 999 Random Integer] Modulo S + 1
+Number of Sides (S): 20
+Random Integer: 739
+Modulo Execution: (739 Modulo 20) + 1 = 19 + 1
+Final Dice Result = 20
+</details>

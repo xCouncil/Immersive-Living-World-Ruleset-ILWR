@@ -1,0 +1,4 @@
+Cause: Concrete Action that spawned the incident
+Schedule: Date | Time | Location
+Actor: NPC1
+Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player

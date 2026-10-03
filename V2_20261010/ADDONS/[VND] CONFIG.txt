@@ -1,0 +1,14 @@
+BASE URL: https://storage.googleapis.com/airealm-prod-images/npc-images/npc_YOUR_CHAT_ID_HERE
+
+[PLAYER]
+Color: #47788A | Icon: _123456.jpg
+
+[NPC DEFAULTS]
+NPC Name | Dialog Color | Emotion - Icon Link
+Generic Male NPC | #9E9E9E | Default - _123456.jpg
+Generic Female NPC | #9E9E9E | Default - _123456.jpg
+
+[LOCATION BG]
+FALLBACK BG (When none are applicable): _123456.jpg
+Location - BG URL - DARK/LIGHT
+Combat - _123456.jpg - DARK

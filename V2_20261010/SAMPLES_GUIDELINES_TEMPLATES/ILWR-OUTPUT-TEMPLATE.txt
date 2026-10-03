@@ -1,0 +1,130 @@
+# HUD: ☀️/🌙 {TimeOfDay} | 🕰️ {HH:MM AM/PM} | 🗓️ {DayOfWeek}, {Month} {Day}, {Year} | 📌 {Location} | 🌸/🌻/🍂/❄️{Season} | 🌤️/🌧️/⛅ {WeatherConditionsAndTemperature}
+------
+[ILWR ADDONS - HEADERS]
+<details>
+<summary>ILWR ADDONS - HEADERS</summary>
+[ILWR ADDON PLACEMENT - Header]
+</details>
+------
+<details>
+<summary>PROSE CONSTRUCTION PIPELINE [PC]</summary>
+[PIH]
+[Narrative Beat 1]
+[PIH-1-Mixed]
+
+[SCTE]
+[ON-SCREEN NPCS (WNSE+Emergent)]
+NPC1
+
+[Active World Rules & Canon] (1 sentence): ...
+
+[CIL]
+[CIL SORTED NPCS]
+[PIH Direct Interaction] Foreground - (PM) TAG1, TAG2
+Background - N/A
+
+[Primary]
+NAME: Full Name1
+[VERBATIM Baseline]
+...
+[VERBATIM Speech]
+...
+[VERBATIM Habits]
+...
+[VERBATIM Situational]
+...
+[VERBATIM Relationship]
+...
+[Knowledge & Memories]
+KNOWS: ...; ...; ...
+DOES NOT KNOW: ...
+AUDIT ANCHOR=[CIL-PM-TAG1]
+
+[Secondary]
+TAG2 | BASELINE PERSONALITY & SPEECH PATTERN | [CIL-FG-TAG2]
+
+[SO]
+[PIH]->[FG] Reaction
+[PIH] Narrative Beats:1
+[FG] Actors: 1
+[Narrative Beat 1 - Chronological Order]
+1. [PIH-1-Mixed]
+2. [CIL-PM-TAG1-PIH-FG]
+
+[BG] (Banter/Chatter/Observations CHRONOLOGICALLY AFTER [PIH]->[FG])
+[BG] Actors: 0
+
+[NAL] (PREVIOUS TURN'S [NPC Agenda] CHRONOLOGICALLY AFTER [BG])
+CRITICAL RULE: A JOINT/CONCURRENT [PIH] EXPANDS THEIR [NAL], REPLACING ACTIONS CONSUMED BY THE [PIH] KEEPING THE SAME INTENT
+[NAL] Actors: 2
+[Narrative Beat 2 - Chronological Order]
+1. [TAG1] - [CIL-PM-TAG1-BG-NAL]
+2. [TAG2] - [CIL-BG-TAG2-BG-NAL]
+
+[INC] (PREVIOUS TURN'S [EXECUTING INCIDENTS] CHRONOLOGICALLY AFTER [NAL])
+N/A
+
+[CORE LAW: BANNED PROSE CONSTRAINTS]
+Literal personality or emotional labels (show physically instead)
+Narrator-explained callbacks or interpretations (characters must speak them)
+Third-person camera pull-backs
+Observation checklists
+Mechanical body part checklists
+
+[CORE LAW: NARRATIVE BEAT CONSTRAINTS] 
+EACH [Narrative Beat] MUST BE EXECUTED IN A DEDICATED MULTI-SENTENCE PARAGRAPH BLOCK FOLLOWING:
+1. CONTENT: Actor's physical action in progress, interleaved dialog, sensory environment, ambient sounds/bystanders, & Player/NPC visual descriptions
+2. TEMPORAL PERSPECTIVE: Real-Time Scene Progression
+3. NARRATIVE VOICE: Player as actor=Present Tense-Deep POV, Lived Experience | NPC as actor=Third Person with Second Person Pronouns for Player interaction | Environment as actor=Second Person Perceived by the Player's Senses
+4. SUBTEXT: NONE
+5. NPC ACTION ECONOMY: PM/FG: Multi Action, Max 2 interleaved Dial | BG: Single Action, Max 1 interleaved Dial | NEVER MUTE
+6. Scene Closure: Close out the scene by handing the initiative back to the player through observable phenomenon
+[SCENE_BACKGROUND_&_BYSTANDER_DETAILS]: ...
+</details>
+{{ PROSE }}
+------
+<details>
+<summary>WORLD AND NPC STATE ENGINE [WNSE]</summary>
+[VERBATIM PLOT THREADS & NPC ROSTER]
+[PT: ...] | NPC Roster: [...] | Next Target: ...
+
+[NPC Agenda]
+[Name]
+Plot Threads: [PT: ...]
+State: ...
+Next Move: ...
+Scene Placement: ON-SCREEN
+Context Anchor: Name-BG-NAL
+
+[PLAYER-COLLIDING INCIDENTS]
+[INC STATUS]
+[INC: ...] | Schedule: ... | ... | ... | Status: ...
+
+[EXECUTING INC]
+[INC: Name]
+Actor: Name, Name
+Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player
+Scene Placement: [ON-SCREEN]
+Context Anchor: Name-NAL-INC, Name-NAL-INC
+
+[WNSE-DB MUTATIONS]
+...
+
+NPC CONTEXT MANAGEMENT (TOGGLE CHECK)
+[Activated NPC Cards]
+NPC1
+
+[NEXT SCENE: IMPLIED ON-SCREEN (PRELOAD)]
+NPC1
+
+[NEXT SCENE: WNSE ON-SCREEN]
+NPC1
+
+NPC-TOGGLE: NO CHANGES
+</details>
+------
+[ILWR ADDONS - FOOTERS]
+<details>
+<summary>ILWR ADDONS - FOOTERS</summary>
+[ILWR ADDON PLACEMENT - Footer]
+</details>
