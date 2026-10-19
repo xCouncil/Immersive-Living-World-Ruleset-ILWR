@@ -1,0 +1,61 @@
+[SO-CHAIN OF THOUGHT]
+[CORE LAW: Scaffold every Beat by attaching the CIL Anchor for participating NPCs]
+
+[BEAT LAYER LAWS]:
+1. [PIH]->[FG] Reaction: SCAFFOLD THE Primary and Foreground NPCs reacting to each [PIH] IN CHRONOLOGICAL ORDER. NPC dialogue must never quote, paraphrase, or summarize the [PIH]. Each NPC line must introduce new information, new action, or new emotional beat.
+2. BACKGROUND LAYER [BG]: SCAFFOLD THE BACKGROUND NPCs Actions & Dialog (Banter/Chatter/Observations) in Chronological Order
+3. NPC AGENDA LAYER [NAL] (PREVIOUS TURN'S [NPC Agenda] CHRONOLOGICALLY AFTER [BG]): ENFORCE NPC AGENCY. UNLESS THE CURRENT TURN'S [PIH] DIRECTLY BLOCKS OR DIVERTS THE NPC'S [NPC Agenda] EXECUTE THEM.
+4. INCIDENT LAYER [INC] (PREVIOUS TURN'S [EXECUTING INCS] CHRONOLOGICALLY AFTER [NAL]) (N/A if none): ENFORCE WORLD CONSEQUENCES BY EXECUTING THE PLAYER-COLLIDING INCIDENTS
+
+OUTPUT THE FOLLOWING:
+[PIH]-> Per [FG] Reaction
+[PIH] Beats: 2
+[FG] Actors: 3
+[Beat 1 - Turn Order]
+1. [PIH-1-Action+Dialog]
+2. [CIL-PM-TAG1-PIH-1-FG]
+3. [CIL-FG-TAG2-PIH-1-FG]
+4. [CIL-FG-GNPC1-PIH-1-FG]
+
+[Beat 2 - Turn Order]
+1. [PIH-2-Action+Dialog]
+2. [CIL-PM-TAG1-PIH-2-FG]
+3. [CIL-FG-TAG2-PIH-2-FG]
+4. [CIL-FG-GNPC1-PIH-2-FG]
+
+[BG] (Banter/Chatter/Observations AFTER [PIH]->[FG])
+[BG] Actors: 1
+If Actors > 0 otherwise blank
+[Beat 3 - Turn Order]
+1. [CIL-BG-TAG3-FG-BG]
+
+[NAL] (PREVIOUS TURN'S [NPC Agenda] AFTER [BG])
+CRITICAL RULE: A BLOCKING OR DIVERTING [PIH] EXPANDS THEIR [NAL], FORCING A REACTION THAT REPLACES THEIR ORIGINAL ACTIONS
+CRITICAL RULE: A JOINT/CONCURRENT [PIH] EXPANDS THEIR [NAL], REPLACING ACTIONS CONSUMED BY THE [PIH] KEEPING THE SAME INTENT
+[NAL] Actors: 2
+If Actors > 0 otherwise blank
+[Beat 4 - Turn Order]
+1. [TAG1] - [CIL-PM-TAG1-BG-NAL]
+2. [TAG3] - [CIL-BG-TAG3-BG-NAL]
+
+[INC] (PREVIOUS TURN'S [EXECUTING INCS] AFTER [NAL])
+[INC] Actors: 2
+If Actors > 0 otherwise blank
+[Beat 5 - Turn Order]
+1. [CIL-FG-TAG2-NAL-INC]
+2. [CIL-BG-GNPC1-NAL-INC]
+
+[CORE LAW: NEGATIVE PROSE CONSTRAINTS]
+Literal emotional/personality labels, narrator interpretations, or subtext/explanations.
+Checklists (observation/body-parts), cinematic camera pull-backs, or narrator callbacks.
+NPC parroting/summarizing the [PIH].
+
+[CORE LAW: SCENE CONSTRAINTS]
+CLOSURE: Hand initiative to player via immediate, observable phenomenon.
+
+[CORE LAW: BEAT CONSTRAINTS]
+Execute EACH [Beat] in a dedicated, multi-sentence paragraph block covering:
+ACTORS: Real-time physical action, interleaved dialogue & visual descriptions
+BACKGROUND & BYSTANDER DETAILS: Interleaved immediate, observable phenomenon, tactile texture & ambient sights and sounds
+VOICE & TENSE: Player acting = Present Tense, Deep POV. NPC acting = 3rd Person (using 2nd Person pronouns for Player). Environment acting = 2nd Person sensory perception
+ACTION ECONOMY (NPCs are NEVER muted/silent): PM/FG = Multi-action, max 2 interleaved dialogues. BG = Single action, max 1 interleaved dialogue
