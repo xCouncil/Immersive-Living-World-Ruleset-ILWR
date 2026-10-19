@@ -40,6 +40,9 @@
 - Removed the unreliable battle grid in the `Combat Tracker`
 - Added Portrait and VN mode support for `DM Dice Rolling`
 
+### Player's preferences for the DM (Magical DM HUD)
+- Updated the wording and added the user satisfaction law to try and reduce AI Sycophanty
+
 ---
 Latest Version of Loose files can be found in
 https://discord.com/channels/1105664318332211252/1524010781216342077
