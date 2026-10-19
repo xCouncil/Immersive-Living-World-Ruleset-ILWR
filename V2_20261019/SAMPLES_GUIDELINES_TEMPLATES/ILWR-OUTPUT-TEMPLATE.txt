@@ -1,0 +1,148 @@
+| *📌 {Location}* | *🌸/🌻/🍂/❄️ {DayOfWeek}, {Month} {Day}, {Year}, {Season}* | *☀️/🌙 {TimeOfDay}, {HH:MM AM/PM}* | *🌤️/🌧️/⛅ {WeatherConditionsAndTemperature}* |
+
+<say who="DM">
+<details>
+<summary>ILWR ADDONS - HEADERS</summary>
+[ILWR ADDON PLACEMENT - Header]
+</details>
+<details>
+<summary>PROSE CONSTRUCTION PIPELINE [PC]</summary>
+[PIH]
+[Beat 1]
+[PIH-1-Action+Dialog]
+
+[SCTE]
+[ON-SCREEN NPCS (WNSE+Emergent)]
+NPC1
+
+[Operational Source Material Mechanics, Constraints, & Timetables] (1 sentence): ...
+
+[CIL]
+[PIH Direct Interaction] Foreground - (PM) TAG1, TAG2
+Background - N/A
+
+[Primary]
+NAME: Full Name1
+[VERBATIM Baseline]
+...
+[VERBATIM Speech]
+...
+[VERBATIM Habits]
+...
+[VERBATIM Situational]
+...
+[VERBATIM Relationship] (Max 4 applicable to the [PIH])
+Relationship 1
+...
+[Epistemic Boundaries] (MAX 2 Source Material Concise Bullets Each Section)
+PERSONAL HISTORY RECALL:
+-Memory 1
+...
+GOALS/INSECURITIES:
+- Goal 1/Insecurity 1
+...
+DOES NOT KNOW: 
+- Unknown 1
+...
+AUDIT ANCHOR=[CIL-PM-TAG1]
+
+[Secondary]
+TAG2 | BASELINE PERSONALITY & SPEECH PATTERN | [CIL-FG-TAG2]
+
+[SO]
+[PIH]-> Per [FG] Reaction
+[PIH] Beats:1
+[FG] Actors: 1
+[Beat 1 - Turn Order]
+1. [PIH-1-Mixed]
+2. [CIL-PM-TAG1-PIH-FG]
+
+[BG] (Banter/Chatter/Observations AFTER [PIH]->[FG])
+[BG] Actors: 0
+
+[NAL] (PREVIOUS TURN'S [NPC Agenda] AFTER [BG])
+CRITICAL RULE: A BLOCKING OR DIVERTING [PIH] EXPANDS THEIR [NAL], FORCING A REACTION THAT REPLACES THEIR ORIGINAL ACTIONS
+CRITICAL RULE: A JOINT/CONCURRENT [PIH] EXPANDS THEIR [NAL], REPLACING ACTIONS CONSUMED BY THE [PIH] KEEPING THE SAME INTENT
+[NAL] Actors: 2
+[Beat 2 - Turn Order]
+1. [TAG1] - [CIL-PM-TAG1-BG-NAL]
+2. [TAG2] - [CIL-BG-TAG2-BG-NAL]
+
+[INC] (PREVIOUS TURN'S [EXECUTING INCIDENTS] AFTER [NAL])
+N/A
+
+[CORE LAW: NEGATIVE PROSE CONSTRAINTS]
+Literal emotional/personality labels, narrator interpretations, or subtext/explanations.
+Checklists (observation/body-parts), cinematic camera pull-backs, or narrator callbacks.
+NPC parroting/summarizing the [PIH].
+
+[CORE LAW: SCENE CONSTRAINTS]
+CLOSURE: Hand initiative to player via immediate, observable phenomenon.
+
+[CORE LAW: BEAT CONSTRAINTS]
+Execute EACH [Beat] in a dedicated, multi-sentence paragraph block covering:
+ACTORS: Real-time physical action, interleaved dialogue & visual descriptions
+BACKGROUND & BYSTANDER DETAILS: Interleaved immediate, observable phenomenon, tactile texture & ambient sights and sounds
+VOICE & TENSE: Player acting = Present Tense, Deep POV. NPC acting = 3rd Person (using 2nd Person pronouns for Player). Environment acting = 2nd Person sensory perception
+ACTION ECONOMY (NPCs are NEVER muted/silent): PM/FG = Multi-action, max 2 interleaved dialogues. BG = Single action, max 1 interleaved dialogue
+</details>
+</say>
+{{ PROSE }}
+<say who="DM">
+<details>
+<summary>WORLD AND NPC STATE ENGINE [WNSE]</summary>
+[VERBATIM PLOT THREADS & NPC ROSTER]
+[PT: Name]
+NPC Roster: [Name, Name]
+Next Critical Story Event: …
+
+[NPC Agenda]
+[Name]
+Plot Threads: [PT: Name], [PT: Name]
+State: …
+Plot Driven Objective & Motivation: …
+Next Objective Advancing Action: …
+Scene Placement: …
+Context Anchor: Name-BG-NAL
+
+[PLAYER-COLLIDING INCIDENTS]
+[INC STATUS]
+[INC: ...] | Schedule: ... | ... | ... | Status: ...
+
+[EXECUTING INC]
+[INC: Name]
+Actor: Name, Name
+Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player
+Scene Placement: [ON-SCREEN]
+Context Anchor: Name-NAL-INC, Name-NAL-INC
+
+[WNSE-DB MUTATIONS]
+[CREATING PLOT THREADS]
+<<CREATE A NEW SECTION IN THE CHARACTER DATA IN THE "ILWR-WNSE-DB: PT & INC" FOLDER WITH THE NAME: [PT: Name], CONTENTS: NPC Roster: NPC1, Long Term Objective: ..., Critical Story Developments: ..., Next Critical Story Event: ...>>
+
+[UPDATING PLOT THREADS]
+<<UPDATE THE SECTION IN THE CHARACTER DATA IN THE "ILWR-WNSE-DB: PT & INC" FOLDER WITH THE NAME: [PT: Name], Update Critical Story Developments to... Next Critical Story Event to...>>
+
+[CREATING PLOT, PLAYER, NPC AGENDA INCS]
+<<CREATE A SECTION IN THE CHARACTER DATA IN THE "ILWR-WNSE-DB: PT & INC" FOLDER WITH THE NAME: [INC: Name], CONTENTS: Cause: Concrete Action or planned event that spawned the incident, Schedule: Date | Time | Location, Actor: NPC1, Player Collision: Concrete Action the Actor Will Perform and its manifestation that forces it to intersect with the Player>>
+
+[RESOLVING INCS]
+<<DELETE THE SECTION IN THE CHARACTER DATA IN THE "ILWR-WNSE-DB: PT & INC" FOLDER WITH THE NAME: [INC: Name]>>
+
+NPC CONTEXT MANAGEMENT (TOGGLE CHECK)
+[Activated NPC Cards]
+NPC1
+
+[NEXT SCENE: IMPLIED ON-SCREEN (PRELOAD)]
+NPC1
+
+[NEXT SCENE: WNSE ON-SCREEN]
+NPC1
+
+NPC-TOGGLE FOR NEXT SCENE: NO CHANGES
+</details>
+<details>
+<summary>ILWR ADDONS - FOOTERS</summary>
+[ILWR ADDON PLACEMENT - Footer]
+</details>
+</say>
