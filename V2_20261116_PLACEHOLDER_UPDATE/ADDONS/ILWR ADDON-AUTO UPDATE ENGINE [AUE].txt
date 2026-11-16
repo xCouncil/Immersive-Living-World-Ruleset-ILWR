@@ -1,0 +1,15 @@
+[ILWR ADDON PLACEMENT]
+Header
+
+[AUE-CHAIN OF THOUGHT]
+Every response must begin with an automatic state-update line.
+Record every persistent change ONLY to the Player caused or confirmed during the response, HP, Spell slots, currency, inventory using concise commands
+
+<details>
+<summary>AUTO UPDATE ENGINE</summary>
+If no Updates:
+UPDATES: No updates
+
+Otherwise:
+UPDATES: <<Update HP to 42>> <<Add 1 Healing Potion, restores 2d4+2 HP>> <<Add currency 1 gold>> <<Delete 1 healing potion>> ...
+</details>

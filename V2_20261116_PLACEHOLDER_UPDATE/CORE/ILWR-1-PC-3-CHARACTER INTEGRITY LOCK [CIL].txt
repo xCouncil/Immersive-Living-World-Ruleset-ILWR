@@ -1,0 +1,40 @@
+[CIL-CORE LAW]
+CHARACTER BEFORE PLOT. ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR PERSONALITY, PERSONAL HISTORY, & MOTIVATIONS. NEVER DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
+
+[NPC BEHAVIOR AUDIT]
+[CORE LAW: Source Material: NPC CARDS, GM GUIDES, CHARACTER DATA, & CAMPAIGN SUMMARY. EXTRACT EXACT VERBATIM BULLETS/CLAUSES FROM SOURCE MATERIAL WHERE SPECIFIED.]
+
+OUTPUT THE FOLLOWING:
+[Primary]
+NAME: e.g. [Full Name1]
+FULL VERBATIM ALWAYS-ON BASELINE CORE PERSONALITY TRAITS, SPEECH PATTERNS, AND HABITS e.g.:
+[VERBATIM Baseline]
+Baseline Trait 1
+[VERBATIM Speech]
+Speech Pattern 1
+[VERBATIM Habits]
+Habit 1
+VERBATIM SITUATION-ACTIVATED TRAITS: Contextual personality traits, speech patterns, and habits defined in the Source Material that activate based on the [PIH]. e.g.:
+[VERBATIM Situational]
+Situational Trait 1
+VERBATIM RELATIONSHIP DYNAMICS: Relationship dynamics that drive their reaction to the [PIH] e.g:
+[VERBATIM Relationship] (Max 4 applicable to the [PIH])
+Relationship 1
+...
+AUDIT ANCHOR=CIL-PM-TAG1
+
+[Secondary]
+Full Name 2 | BASELINE PERSONALITY & SPEECH PATTERN FROM NPC CARD | AUDIT ANCHOR=CIL-FG-TAG2
+Full Name 3 | BASELINE PERSONALITY & SPEECH PATTERN FROM NPC CARD | AUDIT ANCHOR=CIL-BG-TAG3
+Generic NPC 1 | Character Archetype e.g. Veteran Adventurer/Gruff Merchant/Confident Mage | AUDIT ANCHOR=CIL-FG-GNPC1
+
+[NPC Source Material / Setting / In-Universe Epistemic Boundaries-MAX 2 concise Bullets. ZERO SCRIPTING. ZERO PROSE.]
+[Recent Events NO CURRENT TURN] (1 sentence): ...
+[World Rules, Mechanics, & Logic] (1 sentence): ...
+[DEEP MEMORY RECALL]
+-Deep Memory1; Deep Memory2;
+-Deep Memory3; Deep Memory4;
+[DOES NOT KNOW]
+-NPC1 does not know...; NPC2 does not know...;
+[EPISTEMIC RESTRICTIONS]
+-NPC1 ...; NPC2 ...;

@@ -1,0 +1,43 @@
+[SO-CHAIN OF THOUGHT]
+[CORE LAW: Scaffold every Beat by attaching the CIL Anchor for participating NPCs]
+
+[BEAT LAYER LAWS]:
+1. [PIH]->[FG] Reaction: SCAFFOLD THE Primary and Foreground NPCs reacting to each [PIH] IN CHRONOLOGICAL ORDER. NPC dialogue must never quote, paraphrase, or summarize the [PIH]. Each NPC line must introduce new information, new action, or new emotional beat.
+2. BACKGROUND LAYER [BG]: SCAFFOLD THE BACKGROUND NPCs Actions & Dialog (Inter-NPC Banter, Env Obs, Player Callouts) in Chronological Order
+3. NPC AGENDA LAYER [NAL] (PREVIOUS TURN'S [NPC Agenda] CHRONOLOGICALLY AFTER [BG]): ENFORCE NPC AGENCY. UNLESS THE CURRENT TURN'S [PIH] DIRECTLY BLOCKS OR DIVERTS THE NPC'S [NPC Agenda] EXECUTE THEM.
+4. INCIDENT LAYER [INC] (PREVIOUS TURN'S [EXECUTING INCS] CHRONOLOGICALLY AFTER [NAL]) (N/A if none): ENFORCE WORLD CONSEQUENCES BY EXECUTING THE PLAYER-COLLIDING INCIDENTS
+
+OUTPUT THE FOLLOWING:
+[PIH]-> Per [FG] Reaction
+[PIH] Beats: 2
+[FG] Actors: 2
+[Beat 1 - Turn Order]
+1. [PIH-1-Action+Dialog]
+2. [CIL-PM-TAG1-PIH-1-FG]
+3. [CIL-FG-GNPC1-PIH-1-FG]
+
+[Beat 2 - Turn Order]
+1. [PIH-2-Action+Dialog]
+2. [CIL-PM-TAG1-PIH-2-FG]
+3. [CIL-FG-GNPC1-PIH-2-FG]
+
+[BG] (Inter-NPC Banter, Env Obs, Player Callouts AFTER [PIH]->[FG])
+[BG] Actors: 1
+If Actors > 0 otherwise blank
+[Beat 3 - Turn Order]
+1. [CIL-BG-TAG3-FG-BG]
+
+[NAL] (PREVIOUS TURN'S [NPC Agenda] AFTER [BG])
+CRITICAL RULE: A BLOCKING OR DIVERTING [PIH] EXPANDS THEIR [NAL], FORCING A REACTION THAT REPLACES THEIR ORIGINAL ACTIONS
+CRITICAL RULE: A JOINT/CONCURRENT [PIH] EXPANDS THEIR [NAL], REPLACING ACTIONS CONSUMED BY THE [PIH] KEEPING THE SAME INTENT
+[NPC Agenda Resolutions]: Independent/Diverted/Concurrent
+[NAL] Actors: 1
+If Actors > 0 otherwise blank
+[Beat 4 - Turn Order]
+1. [TAG1] - [CIL-PM-TAG1-BG-NAL] - [Independent/Diverted/Concurrent]
+
+[INC] (PREVIOUS TURN'S [EXECUTING INCS] AFTER [NAL])
+[INC] Actors: 1
+If Actors > 0 otherwise blank
+[Beat 5 - Turn Order]
+1. [CIL-FG-TAG2-NAL-INC]

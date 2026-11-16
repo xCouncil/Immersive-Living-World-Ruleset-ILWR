@@ -1,0 +1,66 @@
+THIS GM GUIDE DOES NOTHING FOR THE AI DO NOT ENABLE IT!
+
+This Guide is simply to give the player guidelines on how to structure your NPC cards for maximum fidelity whether its Vanilla or with the ILWR
+
+1. Every Section should have "NPC NAME-" attached to it
+> Why? Because the AI sees all the NPC Cards laid out top down e.g.
+
+NPC 1
+Name: NPC 1
+Appearance: ...
+Personality: ...
+
+NPC 2
+Name: NPC 2
+Appearance: ...
+Personality: ...
+
+The problem is once the context gets longer these start to blend together or worse the AI has too hard of a time and decides to boil it down to tropes.
+In order to make each of these unique you attach the name to it e.g
+
+NPC 1
+Name: NPC 1
+NPC 1-Appearance: ...
+NPC 1-Personality: ...
+
+NPC 2
+Name: NPC 2
+NPC 2-Appearance: ...
+NPC 2-Personality: ...
+
+This way when it tries to read the wall of text for NPC details it at least has a way to find it easier and differentiate each one.
+
+
+2. Every NPC should have the following Sections: Dialog Style & Character Tag e.g.
+
+NPC 1-Dialog Style
+NPC 2-Character Tag
+
+Dialog Style is where you will set the color of their dialog, if you leave this blank the AI will randomize it every time e.g 
+
+NPC1-Dialog Style
+Color: #DC143C
+
+Character Tag is where you set a shorthand 3-4 letters of your Character's Name which would make it easier (and consume less output) to locate them e.g.
+
+NPC 1-Tag
+NP1
+> Why not just use the tag for the other sections? e.g. NP1-Appearance? Because doing that will require the AI to look twice, once for the tag then which character 
+its for instead of knowing which character it is from the start then just taking the tag
+
+3. DO NOT PUT IMPORTANT NPC MEMORIES IN THE NPC CARD
+> Why isnt that what its for? Because NPC Cards sit in the middle of the window and can be heavily diluted putting them in GM Guides brings them into the very top where the AI
+can pay attention to them better, just note that adding too much information there naturally pushes it towards the middle again so save it for your most critical
+party members 1-3 NPCs at most I would suggest. 
+
+KEEP MEMORIES AS BULLET POINTS FOR RP INSTEAD OF NARRATION. LONG PARAGRAPHS ACTUALLY HURT THE MEMORY RETENTION INSTEAD OF CLEAN BULLET POINTS THAT CAN BE RETRIEVED
+FOR ROLEPLAY
+
+ e.g.
+
+-Admitted that talking with Kyle through their shared wall was enjoyable
+
+instead of
+
+During Breakfast while sitting down at the table she Admitted with a slight blush on her face that talking with Kyle through their shared wall was enjoyable
+afterwards they...
