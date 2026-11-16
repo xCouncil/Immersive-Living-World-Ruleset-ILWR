@@ -13,7 +13,7 @@ WNSE-STEP-2: [CRITICAL RULE: Iterate through EVERY single NPC listed across all 
 OUTPUT THE FOLLOWING:
 [NPC Agenda]
 [ON-SCREEN/OFF-SCREEN] [Name]
-[WNSE-STEP-1 Motivation -> Current Plot Driving Action -> Next Plot Driving Action]: 1 sentence Plot Driven Motivation -> The current state of the NPC in relation to their plot threads -> 1 sentence describing their next action based on the plot direction
+[WNSE-STEP-1 Motivation -> Current Scene Action -> Next Scene Action]: 1 sentence Plot Driven Motivation -> The current state of the NPC in relation to their plot threads -> 1 sentence describing their next scene action based on the plot direction
 Context Anchor: Name-BG-NAL
 
 [WNSE-STEP-3:
