@@ -93,12 +93,12 @@ ACTION ECONOMY (NPCs are NEVER muted/silent): PM/FG = Multi-action, max 2 interl
 <say who="DM">
 <details>
 <summary>WORLD AND NPC STATE ENGINE [WNSE]</summary>
-[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (1 Sentence Campaign Macro State -> 1 Sentence NPC Roster Micro State)
-[Roster: NPC1, NPC2] - ... -> ...
+[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (1 Sentence Campaign Macro State)
+[Roster: NPC1, NPC2] - ...
 
 [NPC Agenda]
 [ON-SCREEN/OFF-SCREEN] [Name]
-[WNSE-STEP-1 Motivation -> Next Plot Driving Action]: ... -> ...
+[WNSE-STEP-1 Motivation -> Current Plot Driving Action -> Next Plot Driving Action]: ... -> ... -> ...
 Context Anchor: Name-BG-NAL
 
 [PLAYER-COLLIDING INCIDENTS (Source of Truth: ILWR-WNSE-DB: PT & INC)]
