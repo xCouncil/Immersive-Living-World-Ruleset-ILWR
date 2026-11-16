@@ -6,14 +6,14 @@ ILWR-WNSE-DB: PT & INC (in Character Data)
 
 WNSE-STEP-1: [CRITICAL RULE: Retrieve from Source of Truth. Output EVERY active thread, its complete NPC roster, and the immediate target event.]
 OUTPUT THE FOLLOWING:
-[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (1 Sentence Campaign Macro State -> 1 Sentence NPC Roster Micro State)
-[Roster: NPC1, NPC2] - Synthesis of all macro plot threads and their next critical story events -> The current state of the NPC roster in relation to their plot threads
+[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (1 Sentence Campaign Macro State)
+[Roster: NPC1, NPC2] - Synthesis of all macro plot threads and their next critical story events
 
 WNSE-STEP-2: [CRITICAL RULE: Iterate through EVERY single NPC listed across all rosters in WNSE-STEP-1. No NPC on a roster may be skipped. NPCs are NEVER passive.]
 OUTPUT THE FOLLOWING:
 [NPC Agenda]
 [ON-SCREEN/OFF-SCREEN] [Name]
-[WNSE-STEP-1 Motivation -> Next Plot Driving Action]: 1 sentence Plot Driven Motivation -> 1 sentence describing their next action based on the plot direction
+[WNSE-STEP-1 Motivation -> Current Plot Driving Action -> Next Plot Driving Action]: 1 sentence Plot Driven Motivation -> The current state of the NPC in relation to their plot threads -> 1 sentence describing their next action based on the plot direction
 Context Anchor: Name-BG-NAL
 
 [WNSE-STEP-3:
