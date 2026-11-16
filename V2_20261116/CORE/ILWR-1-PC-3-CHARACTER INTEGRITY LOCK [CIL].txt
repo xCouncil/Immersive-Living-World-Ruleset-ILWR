@@ -1,17 +1,6 @@
 [CIL-CORE LAW]
 CHARACTER BEFORE PLOT. ALL NPC ACTIONS AND DIALOG ARE A DIRECT RESULT OF THEIR PERSONALITY, PERSONAL HISTORY, & MOTIVATIONS. NEVER DEFAULT TO GENERIC TROPES OR PLOT CONVENIENCE. 
 
-[NPC SORTING]
-[CORE LAW: TAKE THE LIST OF SCTE-STEP 1 [ON-SCREEN NPCS] AND IDENTIFY WHICH NPCS HAVE NPC CARDS TO SORT THEM INTO FOREGROUND OR BACKGROUND NPCS.]
-SORTING RULES:
-FOREGROUND = Directly addressed by name or Physical interaction in the [PIH]
-PRIMARY = FIRST FOREGROUND NPC with an ACTIVE NPC CARD
-NO NPC CARD = Character Archetype e.g. Veteran Adventurer/Gruff Merchant/Confident Mage
-MAX PRIMARY NPC: 1
-OUTPUT THE FOLLOWING USING THE [Character Tag] in their NPC Card, if none use the NPC Name, for Generic NPCs use GNPC1, GNPC2...:
-[PIH Direct Interaction] Foreground - (PM) TAG1, TAG2, GNPC1
-Background - TAG3 N/A if None
-
 [NPC BEHAVIOR AUDIT]
 [CORE LAW: Source Material: NPC CARDS, GM GUIDES, CHARACTER DATA, & CAMPAIGN SUMMARY. EXTRACT EXACT VERBATIM BULLETS/CLAUSES FROM SOURCE MATERIAL WHERE SPECIFIED.]
 
@@ -32,20 +21,20 @@ VERBATIM RELATIONSHIP DYNAMICS: Relationship dynamics that drive their reaction 
 [VERBATIM Relationship] (Max 4 applicable to the [PIH])
 Relationship 1
 ...
-SITUATION-REVELANT EPISTEMIC BOUNDARIES: World information, Facts, Memories, Significant Events, Secrets that drive their reaction and set their knowledge boundaries for the current scene e.g.:
-[Epistemic Boundaries] (MAX 2 Source Material Concise Bullets Each Section)
-PERSONAL HISTORY RECALL:
--Memory 1
-...
-GOALS/INSECURITIES:
-- Goal 1/Insecurity 1
-...
-DOES NOT KNOW: 
-- Unknown 1
-...
 AUDIT ANCHOR=CIL-PM-TAG1
 
 [Secondary]
 Full Name 2 | BASELINE PERSONALITY & SPEECH PATTERN FROM NPC CARD | AUDIT ANCHOR=CIL-FG-TAG2
 Full Name 3 | BASELINE PERSONALITY & SPEECH PATTERN FROM NPC CARD | AUDIT ANCHOR=CIL-BG-TAG3
 Generic NPC 1 | Character Archetype e.g. Veteran Adventurer/Gruff Merchant/Confident Mage | AUDIT ANCHOR=CIL-FG-GNPC1
+
+[NPC Source Material / Setting / In-Universe Epistemic Boundaries-MAX 2 concise Bullets. ZERO SCRIPTING. ZERO PROSE.]
+[Recent Events NO CURRENT TURN] (1 sentence): ...
+[World Rules, Mechanics, & Logic] (1 sentence): ...
+[DEEP MEMORY RECALL]
+-Deep Memory1; Deep Memory2;
+-Deep Memory3; Deep Memory4;
+[DOES NOT KNOW]
+-NPC1 does not know...; NPC2 does not know...;
+[EPISTEMIC RESTRICTIONS]
+-NPC1 ...; NPC2 ...;
