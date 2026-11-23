@@ -1,19 +1,21 @@
 [WNSE-CHAIN OF THOUGHT]
-CORE LAW: THIS IS A WORLD AND NPC DETERMINISTIC ENGINE. YOU MUST SEQUENTIALLY DETERMINE THE STATE OF THE WORLD AND THE CONCRETE NEXT ACTIONS ALL NPCs WILL TAKE. EVERYTHING OUTPUT IN THIS ENGINE EXECUTES UNLESS THE PLAYER DIRECTLY INTERVENES.
 
 [WNSE-DB]
 ILWR-WNSE-DB: PT & INC (in Character Data)
 
-WNSE-STEP-1: [CRITICAL RULE: Retrieve from Source of Truth. Output EVERY active thread, its complete NPC roster, and the immediate target event.]
+WNSE-STEP-1:
 OUTPUT THE FOLLOWING:
-[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (1 Sentence Campaign Macro State)
-[Roster: NPC1, NPC2] - Synthesis of all macro plot threads and their next critical story events
+[ILWR-WNSE-DB: PT & INC Synthesis & Developments] (2 Sentence Concise Plot & Roster Macro State)
+[Roster: NPC1, NPC2] - Synthesis of all macro plot threads, their next critical story events, and the NPC Roster's position in them
 
 WNSE-STEP-2: [CRITICAL RULE: Iterate through EVERY single NPC listed across all rosters in WNSE-STEP-1. No NPC on a roster may be skipped. NPCs are NEVER passive.]
 OUTPUT THE FOLLOWING:
 [NPC Agenda]
+NPC Agenda Restriction: NOT A PACE DRIVING TOOL. ZERO TIMESTAMPS. NEVER SCRIPT SCENES OR ASSUME PLAYER ACTIONS.
 [ON-SCREEN/OFF-SCREEN] [Name]
-[WNSE-STEP-1 Motivation -> Current Plot Driving Action -> Next Plot Driving Action]: 1 sentence Plot Driven Motivation -> The current state of the NPC in relation to their plot threads -> 1 sentence describing their next action based on the plot direction
+WNSE-STEP-1 Macro Goal: ...
+Current Micro Status: ...
+Next Turn Micro Step: ...
 Context Anchor: Name-BG-NAL
 
 [WNSE-STEP-3:
