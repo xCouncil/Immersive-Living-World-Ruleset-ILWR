@@ -7,7 +7,7 @@ OUTPUT YOUR AUDIT OF THE: [ILWR-CORE LAW], AND [ILWR-CHAIN OF THOUGHT: EXECUTION
 
 AS PART OF YOUR AUDIT CREATE A SAMPLE FOR THE CURRENT TURN, THE EXPECTED FORMAT BEING:
 
-| *📌 {Location}* | *🌸/🌻/🍂/❄️ {DayOfWeek}, {Month} {Day}, {Year}, {Season}* | *☀️/🌙 {TimeOfDay}, {HH:MM AM/PM}* | *🌤️/🌧️/⛅ {WeatherConditionsAndTemperature}* |
+| *📌 {Location}* | *🌸/🌻/🍂/❄️ {DayOfWeek}, {Month} {Day}, {Year}, {Season}* | *☀️/🌙 {TimeOfDay}, Start: {HH:MM AM/PM} -> End: {HH:MM AM/PM}* | *🌤️/🌧️/⛅ {WeatherConditionsAndTemperature}* |
 
 <say who="DM">
 <details>
