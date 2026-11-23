@@ -11,6 +11,7 @@
 - **Improved NPC Agenda**
 - **Introduced Core Gameplay Rules, an optional replacement to the default system instructions**
 - **Reintroduced the ILWR-BOOTSTRAP**
+- **Added Auto Update Preferences so the AI can better make use of the `WNSE`**
 
 ## Files: [V2_20261123](https://github.com/xCouncil/Immersive-Living-World-Ruleset-ILWR/tree/master/V2_20261123)
 
