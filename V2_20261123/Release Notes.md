@@ -37,6 +37,9 @@
 ### ILWR-OUTPUT-EXAMPLE -> RENAMED AND IMPROVED INTO ILWR-BOOTSTRAP
 - Renamed to `ILWR-BOOTSTRAP` for easier AI Steering
 
+## Auto Update Preferences
+- Added Optional Auto Update Preferences that **DOES NOT** allow NPC or GM Guide editing, instructions are for Inventory and WNSE Plot/INC management
+
 ---
 Github for full packages:
 https://github.com/xCouncil/Immersive-Living-World-Ruleset-ILWR
