@@ -33,7 +33,7 @@
 - Added 2 sentence constraint to `[ILWR-WNSE-DB: PT & INC Synthesis & Developments]` to reduce output tokens and better help the AI plan the `NPC Agenda`
 - Changed `[NPC Agenda]` to to a clean top down generation with `WNSE-STEP-1 Motivation`, `Current Micro Status`, `Next Turn Micro Step` including better anti-railroading/scripting instructions
 
-### ILWR-OUTPUT-EXAMPLE -> RENAMED TO ILWR-BOOTSTRAP
+### ILWR-OUTPUT-EXAMPLE -> RENAMED AND IMPROVED INTO ILWR-BOOTSTRAP
 - Renamed to `ILWR-BOOTSTRAP` for easier AI Steering
 
 ---
